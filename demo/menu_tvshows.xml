@@ -9,75 +9,75 @@
 
 <item>
 <title>30 Rock</title>
-<cover>/pheedio/demo/banners/30 Rock.jpg</cover>
-<background>/pheedio/demo/bg/%SIZE%/tv/30 Rock.jpg</background>
-<link type="menu_show" sort="0" prefix="light" background="/pheedio/demo/bg/%SIZE%/tv/30 Rock.jpg">http://www.hulu.com/feed/show/44/episodes</link>
+<cover>images/banners/30 Rock.jpg</cover>
+<background>images/bg/%SIZE%/tv/30 Rock.jpg</background>
+<link type="menu_show" sort="0" prefix="light" background="images/bg/%SIZE%/tv/30 Rock.jpg">http://www.hulu.com/feed/show/44/episodes</link>
 </item>
 
 <item>
 <title>The Office</title>
-<cover>/pheedio/demo/banners/The Office.jpg</cover>
-<background>/pheedio/demo/bg/%SIZE%/tv/The Office.jpg</background>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/The Office.jpg">http://www.hulu.com/feed/show/70/episodes</link>
+<cover>images/banners/The Office.jpg</cover>
+<background>images/bg/%SIZE%/tv/The Office.jpg</background>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/The Office.jpg">http://www.hulu.com/feed/show/70/episodes</link>
 </item>
 
 <item>
 <title>Psych</title>
-<cover>/pheedio/demo/banners/Psych.jpg</cover>
-<background>/pheedio/demo/bg/%SIZE%/tv/Psych.jpg</background>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Psych.jpg">http://www.hulu.com/feed/show/81/episodes</link>
+<cover>images/banners/Psych.jpg</cover>
+<background>images/bg/%SIZE%/tv/Psych.jpg</background>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Psych.jpg">http://www.hulu.com/feed/show/81/episodes</link>
 </item>
 
 <item>
 <title>Firefly</title>
-<cover>/pheedio/demo/banners/Firefly.jpg</cover>
-<background>/pheedio/demo/bg/%SIZE%/tv/Firefly.jpg</background>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Firefly.jpg">http://www.hulu.com/feed/show/827/episodes</link>
+<cover>images/banners/Firefly.jpg</cover>
+<background>images/bg/%SIZE%/tv/Firefly.jpg</background>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Firefly.jpg">http://www.hulu.com/feed/show/827/episodes</link>
 </item>
 
 <item>
 <title>Monk</title>
-<cover>/pheedio/demo/banners/Monk.jpg</cover>
-<background>/pheedio/demo/bg/%SIZE%/tv/Monk.jpg</background>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Monk.jpg">http://www.hulu.com/feed/show/92/episodes</link>
+<cover>images/banners/Monk.jpg</cover>
+<background>images/bg/%SIZE%/tv/Monk.jpg</background>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Monk.jpg">http://www.hulu.com/feed/show/92/episodes</link>
 </item>
 
 <item>
 <title>Top Chef</title>
-<cover>/pheedio/demo/banners/Top Chef.jpg</cover>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Top Chef.jpg">http://www.hulu.com/feed/show/177/episodes</link>
+<cover>images/banners/Top Chef.jpg</cover>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Top Chef.jpg">http://www.hulu.com/feed/show/177/episodes</link>
 </item>
 
 <item>
 <title>hulu - Popular Shows</title>
-<cover>/pheedio/demo/banners/hulu.jpg</cover>
+<cover>images/banners/hulu.jpg</cover>
 <link type="menu_hulu" sort="1">http://www.hulu.com/feed/popular/tv/today?kind=shows</link>
 </item>
 
 <item>
 <title>Castle</title>
-<cover>/pheedio/demo/banners/Castle.jpg</cover>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Castle.jpg">http://www.hulu.com/feed/show/2309/episodes</link>
+<cover>images/banners/Castle.jpg</cover>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Castle.jpg">http://www.hulu.com/feed/show/2309/episodes</link>
 </item>
 
 <item>
 <title>Community</title>
-<cover>/pheedio/demo/banners/Community.jpg</cover>
-<background>/pheedio/demo/bg/%SIZE%/tv/Community.jpg</background>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Community.jpg">http://www.hulu.com/feed/show/2505/episodes</link>
+<cover>images/banners/Community.jpg</cover>
+<background>images/bg/%SIZE%/tv/Community.jpg</background>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Community.jpg">http://www.hulu.com/feed/show/2505/episodes</link>
 </item>
 
 <item>
 <title>Glee</title>
-<cover>/pheedio/demo/banners/Glee.jpg</cover>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Glee.jpg">http://www.hulu.com/feed/show/2103/episodes</link>
+<cover>images/banners/Glee.jpg</cover>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Glee.jpg">http://www.hulu.com/feed/show/2103/episodes</link>
 </item>
 
 <item>
 <title>Parks and Recreation</title>
-<cover>/pheedio/demo/banners/Parks and Recreation.jpg</cover>
-<background>/pheedio/demo/bg/%SIZE%/tv/Parks and Recreation.jpg</background>
-<link type="menu_show" sort="0" background="/pheedio/demo/bg/%SIZE%/tv/Parks and Recreation.jpg">http://www.hulu.com/feed/show/1968/episodes</link>
+<cover>images/banners/Parks and Recreation.jpg</cover>
+<background>images/bg/%SIZE%/tv/Parks and Recreation.jpg</background>
+<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Parks and Recreation.jpg">http://www.hulu.com/feed/show/1968/episodes</link>
 </item>
 
 </channel>
