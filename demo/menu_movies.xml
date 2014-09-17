@@ -19,13 +19,13 @@
 <writer>John Lasseter, Joe Ranft</writer>
 <cast>Owen Wilson, Paul Newman, Bonnie Hunt</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Cars.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Cars.jpg</background>
+<cover>/pheedio/demo/demo/covers/Cars.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Cars.jpg</background>
 </item>
 
 <item>
 <title>( Streaming )</title>
-<cover>/demo/demo/covers/streaming_sites.jpg</cover>
+<cover>/pheedio/demo/demo/covers/streaming_sites.jpg</cover>
 <link type="menu_grid" sort="1">menu_movies_streaming.xml</link>
 </item>
 
@@ -39,8 +39,8 @@
 <writer>Herman J. Mankiewicz, Orson Welles</writer>
 <cast>Orson Welles, Joseph Cotten, Dorothy Comingore, Agnes Moorehead</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Citizen Kane.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Citizen Kane.jpg</background>
+<cover>/pheedio/demo/demo/covers/Citizen Kane.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Citizen Kane.jpg</background>
 </item>
 
 <item>
@@ -53,8 +53,8 @@
 <director>Christopher Nolan</director>
 <cast>Christian Bale, Heath Ledger, Aaron Eckhart</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/The Dark Knight.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/The Dark Knight.jpg</background>
+<cover>/pheedio/demo/demo/covers/The Dark Knight.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/The Dark Knight.jpg</background>
 </item>
 
 <item>
@@ -67,8 +67,8 @@
 <writer>Dashiell Hammett, John Huston</writer>
 <cast>Humphrey Bogart, Mary Astor, Peter Lorre</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Maltese Falcon.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Maltese Falcon.jpg</background>
+<cover>/pheedio/demo/demo/covers/Maltese Falcon.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Maltese Falcon.jpg</background>
 </item>
 
 <item>
@@ -81,8 +81,8 @@
 <writer>Ernest Lehman</writer>
 <cast>Cary Grant, Eva Marie Saint, James Mason</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/North by Northwest.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/North by Northwest.jpg</background>
+<cover>/pheedio/demo/demo/covers/North by Northwest.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/North by Northwest.jpg</background>
 </item>
 
 <item>
@@ -95,8 +95,8 @@
 <director>Pete Docter, Bob Peterson</director>
 <cast> Edward Asner, Jordan Nagai, John Ratzenberger</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Up.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Up.jpg</background>
+<cover>/pheedio/demo/demo/covers/Up.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Up.jpg</background>
 </item>
 
 <item>
@@ -111,8 +111,8 @@
 <writer>George Lucas</writer>
 <cast>Mark Hamill, Harrison Ford, Carrie Fisher</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Star Wars 4.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Star Wars - Episode IV.jpg</background>
+<cover>/pheedio/demo/demo/covers/Star Wars 4.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Star Wars - Episode IV.jpg</background>
 </item>
 
 <item>
@@ -125,8 +125,8 @@
 <writer>Andrew Stanton</writer>
 <cast>Ben Burtt, Jeff Garlin, Fred Willard, Elissa Knight</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Wall-E.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Wall-E.jpg</background>
+<cover>/pheedio/demo/demo/covers/Wall-E.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Wall-E.jpg</background>
 </item>
 
 <item>
@@ -140,8 +140,8 @@
 <writer>Stephen King</writer>
 <cast>Tim Robbins, Morgan Freeman</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Shawshank.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Shawshank.jpg</background>
+<cover>/pheedio/demo/demo/covers/Shawshank.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Shawshank.jpg</background>
 </item>
 
 <item>
@@ -155,8 +155,8 @@
 <writer>John Lee Hancock</writer>
 <cast>Sandra Bullock, Quinton Aaron, Tim McGraw</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Blind Side.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Blind Side.jpg</background>
+<cover>/pheedio/demo/demo/covers/Blind Side.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Blind Side.jpg</background>
 </item>
 
 <item>
@@ -169,8 +169,8 @@
 <director>Ivan Reitman</director>
 <cast>Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis, Rick Moranis</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Ghostbusters.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Ghostbusters.jpg</background>
+<cover>/pheedio/demo/demo/covers/Ghostbusters.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Ghostbusters.jpg</background>
 </item>
 
 <item>
@@ -183,8 +183,8 @@
 <director>Wes Anderson</director>
 <cast>Gene Hackman, Anjelica Huston, Ben Stiller, Gwyneth Paltrow, Luke Wilson, Owen Wilson, Bill Murray</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Royal Tenenbaums.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Royal Tenenbaums.jpg</background>
+<cover>/pheedio/demo/demo/covers/Royal Tenenbaums.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Royal Tenenbaums.jpg</background>
 </item>
 
 <item>
@@ -197,8 +197,8 @@
 <director>Joel Coen</director>
 <cast>Jeff Bridges, John Goodman, Julianne Moore</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Big Lebowski.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Big Lebowski.jpg</background>
+<cover>/pheedio/demo/demo/covers/Big Lebowski.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Big Lebowski.jpg</background>
 </item>
 
 <item>
@@ -211,8 +211,8 @@
 <director>Rob Reiner</director>
 <cast>Cary Elwes, Mandy Patinkin, Andre the Giant, Chris Sarandon</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Princess Bride.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Princess Bride.jpg</background>
+<cover>/pheedio/demo/demo/covers/Princess Bride.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Princess Bride.jpg</background>
 </item>
 
 <item>
@@ -225,8 +225,8 @@
 <director>Timothy Lanzone</director>
 <cast>Danny Barclay, Matt Lagan, Tyler Seiple, Marc Raymond</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/travsale.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/travsale.jpg</background>
+<cover>/pheedio/demo/demo/covers/travsale.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/travsale.jpg</background>
 </item>
 
 <item>
@@ -240,8 +240,8 @@
 <writer>Charlie Kaufman, Michel Gondry</writer>
 <cast>Jim Carrey, Kate Winslet</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/eternalsunshine.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/eternalsunshine.jpg</background>
+<cover>/pheedio/demo/demo/covers/eternalsunshine.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/eternalsunshine.jpg</background>
 </item>
 
 <item>
@@ -255,8 +255,8 @@
 <writer>Brad Gann</writer>
 <cast>Mark Wahlberg, Greg Kinnear, Elizabeth Banks</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Invincible.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Invincible.jpg</background>
+<cover>/pheedio/demo/demo/covers/Invincible.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Invincible.jpg</background>
 </item>
 
 <item>
@@ -270,8 +270,8 @@
 <writer>Paul Thomas Anderson</writer>
 <cast>Tom Cruise, Julianne Moore, William H. Macy, Philip Seymour Hoffman</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Magnolia.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Magnolia.jpg</background>
+<cover>/pheedio/demo/demo/covers/Magnolia.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Magnolia.jpg</background>
 </item>
 
 <item>
@@ -285,8 +285,8 @@
 <writer>David Franzoni</writer>
 <cast>Russel Crowe, Joaquin Phoenix</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Gladiator.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Gladiator.jpg</background>
+<cover>/pheedio/demo/demo/covers/Gladiator.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Gladiator.jpg</background>
 </item>
 
 <item>
@@ -300,8 +300,8 @@
 <writer>Michael Mann</writer>
 <cast>Al Pacino, Robert De Niro, Val Kilmer, Jon Voight</cast>
 <link type="menu_movie">movie.mp4</link>
-<cover>/demo/demo/covers/Heat.jpg</cover>
-<background>/demo/demo/bg/%SIZE%/Heat.jpg</background>
+<cover>/pheedio/demo/demo/covers/Heat.jpg</cover>
+<background>/pheedio/demo/demo/bg/%SIZE%/Heat.jpg</background>
 </item>
 
 </channel>

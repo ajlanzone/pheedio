@@ -9,7 +9,7 @@
 
 <item>
 <title>digg</title>
-<link type="menu_list">http://feeds.digg.com/digg/popular.rss</link>
+<link type="menu_list">http://digg.com/rss/top.rss</link>
 <cover>images/sites/digg.gif</cover>
 </item>
 
