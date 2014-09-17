@@ -32,7 +32,7 @@
 <title>TV Guide</title>
 <cover>images/icons/tvguide.png</cover>
 <background>images/bg/%SIZE%/background_main_shows.jpg</background>
-<link type="tvguide" minChannel="2" maxChannel="70">67199</link>
+<link type="disabled"></link>
 </item>
 
 <item>
