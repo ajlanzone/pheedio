@@ -23,7 +23,7 @@
 <background>images/bg/%SIZE%/background_scoremenu_73.jpg</background>
 <radio>http://www.nba.com/insideticket/alp_schedule.html</radio>
 <video>http://premium.nba.com/pr/leaguepass/app/current/console.html</video>
-<highlights>/demo/php/rss/nba.php</highlights>
+<highlights>http://andman.net/pheedio/demo/php/rss/nba.php</highlights>
 <link type="scores" background="images/bg/%SIZE%/background_scores_73.jpg">73</link>
 </item>
 
@@ -33,7 +33,7 @@
 <background>images/bg/%SIZE%/background_scoremenu_49.jpg</background>
 <radio>http://mlb.mlb.com/enterworkflow.do?flowId=registration.dynaindex&amp;c_id=mlb&amp;forwardUrl=/mediacenter/index.jsp</radio>
 <video>http://mlb.mlb.com/video/play.jsp</video>
-<highlights>/demo/php/rss/mlb.php</highlights>
+<highlights>http://andman.net/pheedio/demo/php/rss/mlb.php</highlights>
 <link type="scores" background="images/bg/%SIZE%/background_scores_49.jpg">49</link>
 </item>
 
