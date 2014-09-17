@@ -68,12 +68,6 @@
 </item>
 
 <item>
-<title>Glee</title>
-<cover>images/banners/Glee.jpg</cover>
-<link type="menu_show" sort="0" background="images/bg/%SIZE%/tv/Glee.jpg">http://www.hulu.com/feed/show/2103/episodes</link>
-</item>
-
-<item>
 <title>Parks and Recreation</title>
 <cover>images/banners/Parks and Recreation.jpg</cover>
 <background>images/bg/%SIZE%/tv/Parks and Recreation.jpg</background>
