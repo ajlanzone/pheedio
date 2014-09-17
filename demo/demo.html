@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Media Center Demo</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link type="text/css" rel="stylesheet" href="css/base_668.css">
+<link type="text/css" rel="stylesheet" href="css/lightframe.css">
+<script type="text/javascript" src="js/ext/prototype-1.6.0.3.js"></script>
+<script type="text/javascript" src="js/ext/scriptaculous.js"></script>
+<script type="text/javascript" src="js/combined.min.js"></script>
+</head>
+
+<body onpageshow="initMenu('/demo/menu_main.xml');">
+
+<div id="back_button" onclick="g_module.goBack();"><img src="images/other/toolbar/go-back.png"></div>
+<div id="exit_button" onclick="var answer = confirm('Are you sure you want to exit?'); if (answer) window.close();"></div>
+
+<div id="static_div">
+<div id="content_div"></div>
+</div>
+
+<form id="historyForm" style="display:none;">
+<textarea id="history" value=" "></textarea>
+</form>
+
+</body>
+</html>

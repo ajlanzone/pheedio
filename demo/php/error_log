@@ -1,0 +1,2 @@
+[14-Jan-2013 01:12:45] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/gotlogan/public_html/pheedio/demo/php/get2.php on line 17
+[14-Jan-2013 01:12:45] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to feeds.digg.com:80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/gotlogan/public_html/pheedio/demo/php/get2.php on line 17

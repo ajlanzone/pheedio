@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Main Menu</title>
+<subtitle>The first menu</subtitle>
+<background>images/bg/%SIZE%/background_main.png</background>
+<prefix>sb</prefix>
+<rows>3</rows>
+<columns>5</columns>
+<ticker>1</ticker>
+
+<item>
+<title>NCAA Football</title>
+<cover>images/icons/sport24.png</cover>
+<background>images/bg/%SIZE%/background_scoremenu_24.jpg</background>
+<link type="scores" background="images/bg/%SIZE%/background_scores_24.jpg">24</link>
+</item>
+
+<item>
+<title>NBA Basketball</title>
+<cover>images/icons/sport73.png</cover>
+<background>images/bg/%SIZE%/background_scoremenu_73.jpg</background>
+<radio>http://www.nba.com/insideticket/alp_schedule.html</radio>
+<video>http://premium.nba.com/pr/leaguepass/app/current/console.html</video>
+<highlights>/demo/php/rss/nba.php</highlights>
+<link type="scores" background="images/bg/%SIZE%/background_scores_73.jpg">73</link>
+</item>
+
+<item>
+<title>MLB Baseball</title>
+<cover>images/icons/sport49.png</cover>
+<background>images/bg/%SIZE%/background_scoremenu_49.jpg</background>
+<radio>http://mlb.mlb.com/enterworkflow.do?flowId=registration.dynaindex&amp;c_id=mlb&amp;forwardUrl=/mediacenter/index.jsp</radio>
+<video>http://mlb.mlb.com/video/play.jsp</video>
+<highlights>/demo/php/rss/mlb.php</highlights>
+<link type="scores" background="images/bg/%SIZE%/background_scores_49.jpg">49</link>
+</item>
+
+<item>
+<title>NFL Football</title>
+<cover>images/icons/sport5.png</cover>
+<background>images/bg/%SIZE%/background_scoremenu_5.jpg</background>
+<radio>http://www.nfl.com/fieldpass</radio>
+<video>http://www.nfl.com/videos</video>
+<link type="scores" background="images/bg/%SIZE%/background_scores_5.jpg">5</link>
+</item>
+
+<item>
+<title>NHL Hockey</title>
+<cover>images/icons/sport142.png</cover>
+<background>images/bg/%SIZE%/background_scoremenu_142.jpg</background>
+<video>https://gamecenter.nhl.com/nhlgc</video>
+<link type="scores" background="images/bg/%SIZE%/background_scores_142.jpg">142</link>
+</item>
+
+<item>
+<title>NCAA Basketball</title>
+<cover>images/icons/sport99.png</cover>
+<background>images/bg/%SIZE%/background_scoremenu_99.jpg</background>
+<video>http://mmod.ncaa.com/</video>
+<link type="scores" background="images/bg/%SIZE%/background_scores_99.jpg">99</link>
+</item>
+
+</channel>
+</rss>

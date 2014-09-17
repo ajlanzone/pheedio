@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Main Menu</title>
+<background>images/bg/%SIZE%/background_main.jpg</background>
+<prefix>dock</prefix>
+<ticker>1</ticker>
+
+<item>
+<title>Sports</title>
+<cover>images/icons/sport5.png</cover>
+<background>images/bg/%SIZE%/background_scoremenu_5.jpg</background>
+<link type="menu_dock">menu_scores.xml</link>
+</item>
+
+<item>
+<title>Movies</title>
+<cover>images/icons/movies2.png</cover>
+<background>images/bg/%SIZE%/background_main_movies.jpg</background>
+<link type="menu_grid" sort="1">menu_movies.xml</link>
+</item>
+
+<item>
+<title>Television</title>
+<cover>images/icons/tv.png</cover>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<link type="menu_dock">menu_tv.xml</link>
+</item>
+
+<item>
+<title>Music</title>
+<cover>images/icons/jukebox.png</cover>
+<background>images/bg/%SIZE%/background_main_music.jpg</background>
+<link2 type="menu_music" sorted="1">menu_music.xml</link2>
+<link3 type="disabled" sorted="1">menu_music.xml</link3>
+<link type="disabled_music"></link>
+</item>
+
+<item>
+<title>Games</title>
+<cover>images/icons/pc.png</cover>
+<background>images/bg/%SIZE%/background_games_pc.jpg</background>
+<link type="menu_grid" sort="1">games_pc.xml</link>
+</item>
+
+<item>
+<title>Radio</title>
+<cover>images/icons/radio.png</cover>
+<background>images/bg/%SIZE%/background_main_radio.jpg</background>
+<link type="menu_grid" sort="1">menu_radio.xml</link>
+</item>
+
+<item>
+<title>Google</title>
+<cover>images/icons/google.png</cover>
+<background>images/bg/%SIZE%/background_google.jpg</background>
+<link type="search" popup="0" width="800" height="600"></link>
+</item>
+
+<item>
+<title>Web Sites</title>
+<cover>images/icons/internet.png</cover>
+<background>images/bg/%SIZE%/background_main_weather.jpg</background>
+<link type="menu_grid" sort="1">menu_websites.xml</link>
+</item>
+
+<item>
+<title>News</title>
+<cover>images/icons/news.png</cover>
+<background>images/bg/%SIZE%/background_news.jpg</background>
+<link type="menu_grid" sort="1">menu_news.xml</link>
+</item>
+
+</channel>
+</rss>

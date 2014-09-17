@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>News</title>
+<ticker>1</ticker>
+<columns>4</columns>
+<rows>4</rows>
+
+<item>
+<title>digg</title>
+<link type="menu_list">http://feeds.digg.com/digg/popular.rss</link>
+<cover>images/sites/digg.gif</cover>
+</item>
+
+<item>
+<title>Yahoo! News: Top Stories</title>
+<link type="menu_list">http://news.yahoo.com/rss/topstories</link>
+<cover>images/sites/yahoonews.gif</cover>
+</item>
+
+<item>
+<title>Slashdot</title>
+<link type="menu_list">http://rss.slashdot.org/Slashdot/slashdot</link>
+<cover>images/sites/slashdot.jpg</cover>
+</item>
+
+<item>
+<title>MLB</title>
+<link type="menu_list">http://sports.yahoo.com/mlb/rss.xml</link>
+<cover>images/sites/mlb.gif</cover>
+</item>
+
+<item>
+<title>NFL</title>
+<link type="menu_list">http://sports.yahoo.com/nfl/rss.xml</link>
+<cover>images/sites/nfl.gif</cover>
+</item>
+
+<item>
+<title>NBA</title>
+<link type="menu_list">http://sports.yahoo.com/nba/rss.xml</link>
+<cover>images/sites/nba.gif</cover>
+</item>
+
+<item>
+<title>Philly.com Sports</title>
+<link type="menu_list">http://www.philly.com/philly_sports.rss</link>
+<cover>images/sites/philly.gif</cover>
+</item>
+
+<item>
+<title>Joystiq</title>
+<link type="menu_list">http://www.joystiq.com/rss.xml</link>
+<cover>images/sites/joystiq.gif</cover>
+</item>
+
+<item>
+<title>The Wall Street Journal</title>
+<link type="menu_list">http://online.wsj.com/xml/rss/3_7011.xml</link>
+<cover>images/sites/wsj.gif</cover>
+</item>
+
+</channel>
+</rss>

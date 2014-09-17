@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Internet Channels</title>
+<background/>
+<ticker>1</ticker>
+<columns>6</columns>
+
+<item>
+<title>Nickelodeon</title>
+<cover>images/channels/nickelodeon.jpg</cover>
+<old type="href">http://www.nick.com/turbonick/index.jhtml?gatewayid=86182</old>
+<link type="menu_grid" sort="1" rows="3" columns="4" childType="menu_list">php/rss/zinc.php?provider=nick</link>
+</item>
+
+<item>
+<title>ABC</title>
+<cover>images/channels/abc.jpg</cover>
+<old type="href">http://fep.abc.go.com/fep/player?src=abccomjs</old>
+<link type="menu_grid" sort="1" rows="3" columns="4" childType="menu_list">php/rss/zinc.php?provider=ABCTV</link>
+</item>
+
+<item>
+<title>NBC</title>
+<cover>images/channels/nbc.jpg</cover>
+<link type="href">http://www.nbc.com/Video/library/full-episodes/</link>
+</item>
+
+<item>
+<title>CBS</title>
+<cover>images/channels/cbs.jpg</cover>
+<link2 type="href">http://www.cbs.com/video/</link2>
+<link type="menu_grid" sort="1" rows="3" columns="4" childType="menu_list">php/rss/zinc.php?provider=cbs</link>
+</item>
+
+<item>
+<title>TNT</title>
+<cover>images/channels/tnt.jpg</cover>
+<link type="href">http://www.tnt.tv/dramavision/?cid=39824</link>
+</item>
+
+<item>
+<title>Cartoon Network</title>
+<cover>images/channels/toon.jpg</cover>
+<old type="href">http://www.cartoonnetwork.com/video/index.html</old>
+<link type="menu_grid" sort="1" rows="3" columns="2" childType="menu_list">php/rss/zinc.php?provider=cn</link>
+</item>
+
+<item>
+<title>MLB</title>
+<cover>images/channels/mlb.png</cover>
+<link type="href">http://mlb.mlb.com/enterworkflow.do?flowId=registration.dynaindex&amp;c_id=mlb&amp;forwardUrl=/mediacenter/index.jsp</link>
+</item>
+
+<item>
+<title>Hulu</title>
+<cover>images/channels/hulu.jpg</cover>
+<link type="href">http://www.hulu.com/browse/alphabetical/episode</link>
+</item>
+
+<item>
+<title>ESPN3</title>
+<cover>images/channels/espn3.png</cover>
+<link type="href">http://espn.go.com/espn3/player</link>
+</item>
+
+<item>
+<title>FOX</title>
+<cover>images/channels/fox.png</cover>
+<old type="href">http://www.fox.com/fod/</old>
+<link type="menu_grid" sort="1" rows="3" columns="7" childType="menu_list">php/rss/zinc.php?provider=fox</link>
+</item>
+
+<item>
+<title>FOX News</title>
+<cover>images/channels/foxnews.png</cover>
+<link type="menu_list">http://video.foxnews.com/v/feed/playlist/87937.rss</link>
+</item>
+
+<item>
+<title>NBC Sports</title>
+<cover>images/channels/nbc_sports.jpg</cover>
+<link type="href">http://player.nbcsports.com/SNFPlayer.html?PID=61</link>
+</item>
+
+<item>
+<title>NBA on TNT</title>
+<cover>images/channels/nbatnt.jpg</cover>
+<link type="href">http://www.tnt.tv/sports/nba/overtime12/</link>
+</item>
+
+<item>
+<title>Penny Arcade TV</title>
+<cover>images/channels/patv.jpg</cover>
+<link type="href">http://www.penny-arcade.com/patv/</link>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,2061 @@
+body { 
+	margin:0;
+	background:#000;
+	color:#fff;
+
+	font-family:Tahoma,Geneva,Arial,sans-serif;
+	font-size:21px; /* 668p */
+}
+@font-face {
+   font-family:ZektonBoldWeb;
+   src: local("Zekton Bold"), url("zektonbo.ttf") format("truetype");
+}
+#back_button {
+	/*background:url(/demo/images/other/toolbar/go-back.png);*/
+	background:#000;
+	-moz-border-radius-bottomright:20px;
+	-khtml-border-radius-bottomright:20px;	
+	-webkit-border-bottom-right-radius:20px;
+	border-bottom-right-radius:20px;
+	cursor:pointer;
+	height:60px;
+	left:0;
+	opacity:0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	position:absolute;
+	top:0;
+	width:60px;
+	z-index:5000;
+}
+#exit_button {
+	background:url(/demo/images/other/toolbar/close.png);
+	cursor:pointer;
+	height:60px;
+	right:0;
+	opacity:0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	position:absolute;
+	top:0;
+	width:60px;
+	z-index:5000;
+}
+#back_button:hover, #exit_button:hover {
+	opacity:0.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+#static_div {
+	overflow:hidden;
+	margin:0 auto;
+	background-image:url(/demo/images/bg/668/background.jpg);
+
+	/* 1080p *
+	width:1920px;
+	height:1080px;
+	/* */
+	
+	/* 720p *
+	width:1280px;
+	height:720px;
+	/* */
+	
+	/* 668p */
+	width:1192px;
+	height:668px;
+	/* */
+	
+	/* 480p *
+	width:720px;
+	height:480px;
+	/* */
+}
+#content_div {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+#content_bg {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#error_screen {
+	width:100%;
+	height:100%;
+	line-height:100%;
+	text-align:center;
+	color: #666;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+
+/*------------------------------------------------------
+ * Menu page_div
+ *------------------------------------------------------*/
+.default_page_div {
+	position:absolute;
+
+	/* 720p *
+	top:150px;
+	left:140px;
+	width:1100px;
+	height:475px;
+	/* */
+	
+	/* 668p */
+	top:138px;
+	left:129px;
+	width:1012px;
+	height:437px;
+	/* */
+}
+
+#page_up, #page_down {
+	position:absolute;
+	text-align:right;
+	
+	/* 720p */
+	/*left:140px; /* Same as default_page_div */
+	/*width:1100px; /* Same as default_page_div */
+	/*height:40px;
+	line-height:40px;
+	/* */
+	
+	/* 668p */
+	left:129px; /* Same as default_page_div */
+	width:1012px; /* Same as default_page_div */
+	height:37px;
+	line-height:37px;	
+}
+#page_up img, #page_down img {
+	height:100%;
+	opacity:0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	cursor:pointer;
+}
+#page_up img:hover, #page_down img:hover {
+	opacity:1.0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+#page_up {
+	/*top:100px; /* 720p */
+	top:92px; /* 668p */
+}
+#page_down {
+	/*top:635px; /* 720p */
+	top:584px; /* 668p */
+}
+
+#page_num {
+	font-weight:bold;
+	opacity:0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.page {
+	position:relative;
+	float:left;
+	width:100%;
+	height:100%;
+}
+
+.default_page_title {
+	/*color:#666;*/
+	color:#ffe71c;
+	/*font-family:HandelGotD;
+	font-size:300%;*/
+	
+	font-family:Zekton,ZektonBoldWeb,Tahoma,Verdana,Geneva,sans-serif;
+	font-weight:bold;
+	font-size:250%;
+	line-height:155%;/**/
+	
+	/*font-family:"Forgotten Futurist",ForgottenFuturistWeb,Tahoma,sans-serif;
+	font-size:400%;
+	line-height:110%;/**/
+	
+	overflow:hidden;
+	position:absolute;
+	text-transform:lowercase;
+	text-shadow:#444 1px 1px 3px;
+	white-space:nowrap;
+	z-index:4;
+	
+	/* 720p *
+	top:20px;
+	left:32px;
+	/* */
+	
+	/* 668p */
+	top:18px;
+	left:29px;
+	/* */
+}
+.light_page_title {
+	color:#fff;
+	text-shadow: #000 1px 1px 3px;
+}
+.dark_page_title {
+	color:#666;
+}
+
+/*------------------------------------------------------
+ * Sidebar
+ *------------------------------------------------------*/
+.default_sidebar {
+	position:absolute;
+	z-index:5;
+	
+	/* 720p *
+	width:64px;
+	height:480px;
+	top:150px;
+	left:32px;
+	/* */
+	
+	/* 668p */
+	width:59px;
+	height:442px;
+	top:138px;
+	left:29px;
+	/* */
+}
+.sidebar_off, .sidebar_on {
+	cursor:pointer;
+	border-width:2px;
+	border-style:solid;
+	text-shadow: #000 1px 1px 3px;
+	
+	/* 720p */
+	/* 668p */
+	margin-bottom:4px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.sidebar_off {
+	background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	border-color:#333;
+}
+.sidebar_on {
+	background:#666 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	/*border-color:#333;*/
+	border-color:#555;
+}
+
+.sidebar_off .subtitle {
+	display:none;
+}
+.sidebar_on .subtitle {
+	border-top:2px solid #555;
+	border-right:2px solid #555;
+	border-bottom:2px solid #555;
+	margin-top:-2px;
+
+	/*background:#666;*/
+	background: #666 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	display:inline;
+	/*opacity:0.7;*/
+	position:absolute; 
+	text-align: left; 
+	white-space: nowrap; 
+	z-index:30;
+
+	/* 720p */
+	/* 668p */
+	margin-left:-10px; /* same as .sidebar_on's border radius */
+	padding:0 14px;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.sidebar_on, .sidebar_on .subtitle {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+}
+
+/*------------------------------------------------------
+ * Dock Menu Module
+ *------------------------------------------------------*/
+.dock_page_title {
+	color:#ffe71c;
+	text-shadow: #000 2px 2px 3px;
+}
+#dock_title { /* UNUSED!! */
+	/*color:#FFC76D;*/
+	/*color:#fc7;*/
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	width:100%;
+	float:left;
+	margin:0 auto;
+	/*text-transform:lowercase;*/
+	position:relative; /* absolute; */
+	
+	font-size:200%; /* 48px; */
+	top:36%; /* 260px; */
+}
+.dock_item_off, .dock_item_on {
+	background:none;
+	border:2px solid transparent;
+	color:#aaa;
+	cursor:pointer;
+	/*font-family:Calibri,Arial,sans-serif;*/
+	/*font-weight:bold;*/
+	overflow:hidden;
+	text-align:center;
+	white-space:nowrap;
+	padding: 0 4px;
+	text-shadow: #000 1px 1px 3px;
+
+	display:block;
+	margin:-22px 0 22px 0;
+}
+.dock_item_on {
+	color:#fff;
+	background:#333;
+	border-color:#aaa;
+	
+	/* 720p */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+#dock_left, #dock_right {
+	position:absolute;
+	
+	/* 720p *
+	top:500px;
+	width:40px;
+	/* */
+	
+	/* 668p */
+	top:460px;
+	width:37px;
+	/* */
+}
+#dock_left img, #dock_right img {
+	width:100%;
+	opacity:0.1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	cursor:pointer;
+}
+#dock_left img:hover, #dock_right img:hover {
+	opacity:0.6;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+#dock_left {
+	/*left:32px; /* 720p */
+	left:29px; /* 668p */
+}
+#dock_right {
+	/*right:32px; /* 720p */
+	right:29px; /* 668p */
+}
+
+#dock_glow {
+	position:absolute;
+	text-align:center;
+	width:100%;
+	
+	/* 720p *
+	top:270px;
+	height:340px;
+	
+	/* 668p */
+	top:250px;
+	height:313px;
+}
+#dock_glow img {
+	height:100%;
+}
+.dock_shortcut_div {
+	position:absolute;
+	bottom:100px;
+	color:#fff;
+	font-size:150%;
+	text-align:center;
+	opacity:0.1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+.dock_submenu_div {
+	margin-top:-30px; /* 668p */
+	min-height:30px;
+	background:transparent;
+	
+}
+
+/*------------------------------------------------------
+ * Grid Menu Module
+ *------------------------------------------------------*/
+.default_menu_page_div {
+	/* 720p *
+	top:160px;
+	left:140px;
+	width:1000px;
+	height:475px;*/
+}
+/* Menu page and items */
+.default_menu_div_off, .default_menu_div_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	display:block;
+	float:left;
+	position:relative;
+	text-decoration:none;
+	text-align:center;
+
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	
+	/*border-width: 0 5 0 5;
+	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	
+}
+.default_menu_div_off {
+	background: transparent url(/demo/images/stripe50.png) repeat;
+	/*background: #0e0e0e;*/
+	border-color: #333;
+	z-index:0;
+}
+.default_menu_div_on {
+	background: #666 url(/demo/images/sb_overlay.png) repeat-x;
+	border-color: #333;
+	z-index:10;
+}
+
+/* Size of the menu blocks *
+.default_menu_div_off, .default_menu_div_on, .default_menu_inner {
+	/* 720p *
+	width:122px;
+}
+.default_menu_div_off, .default_menu_div_on {
+	/* 720p *
+	height:114px;
+}
+.default_menu_inner .cover {
+	/* 720p *
+	max-height:114px; /* Must match height of menu_div_on/off *
+}*/
+
+/* Menu item subtitle */
+.default_menu_div_off .subtitle, .default_menu_div_on .subtitle {
+	background:#666;
+	color:#fff;
+	text-align:center;
+	text-shadow: #000 1px 1px 3px;
+	border-left:2px solid #333;
+	border-right:2px solid #333;
+	border-bottom:2px solid #333;
+
+	/* 720p */	
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	/*margin:5px -20px 0 -20px;*/
+}
+.default_menu_div_off .subtitle {
+	display:none;
+}
+.default_menu_div_on .subtitle {
+	display:block;
+}
+
+.default_menu_div_off .subtitle .subsub, .default_menu_div_on .subtitle .subsub {
+	/*color: #ccc;*/
+	font-size:80%;
+}
+
+/* Menu item cover */
+.default_menu_inner .cover {
+	max-width:100%;
+	border-style:solid;
+	border-color:#333;
+	background-color:#333;
+	
+	border-width:5px;
+	margin:-5px;
+}
+.default_menu_div_on .cover {
+	border-color:#fff;
+	background-color:#fff;
+}
+.default_menu_inner {
+	max-height:100%;
+	line-height:0;
+}
+
+/*------------------------------------------------------
+ * List Menu Module
+ *------------------------------------------------------*/
+/* Menu page and items */
+.default_list_div_off, .default_list_div_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	display:block;
+	position:relative;
+	text-decoration:none;
+	text-align:left;
+	text-shadow: #000 1px 1px 3px;
+	overflow:hidden;
+
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	
+	/*border-width: 0 5 0 5;
+	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	
+}
+.default_list_div_off {
+	background: transparent url(/demo/images/stripe50.png) repeat;
+	/*background: #000;*/
+	border-color: #333;
+	z-index:0;
+}
+.default_list_div_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	/*border-color: #333;*/
+	border-color: #999;
+	z-index:10;
+}
+
+.default_list_div_off .cover, .default_list_div_on .cover {
+	float:left;
+	height:100%;
+	padding-right:10px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
+.default_list_div_off .description {
+	display: none;
+}
+.default_list_div_on .description {
+	display:block;
+	font-size:75%;
+	overflow:hidden;
+}
+
+/*------------------------------------------------------
+ * Scores Module
+ *------------------------------------------------------*/
+.sb_page_title {
+ 	color:#ffe71c;
+}
+.sb_page_div {
+
+}
+.sb_a_off, .sb_a_on {
+	float:left;
+	/*background: #111;*/
+	border-style:solid;
+	border-width:3px;
+	/*border-color:#B7B0B8;*/
+	/*border-color:#555;*/
+	border-color:#333;
+	display:block;
+	/*opacity:0.95;*/
+	text-decoration:none;
+	
+	/* 720p *
+	margin:5px;
+	height:104px;
+	width:256px;
+	/* 668p */
+	margin:5px;
+	height:96px;
+	width:235px;
+	/* */
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.sb_a_on {
+	/*background:#888;*/
+	background: #666 url(/demo/images/sb_overlay.png) repeat-x;
+}
+.sb_a_off {
+	background: transparent url(/demo/images/black75.png) repeat;
+}
+
+.sb_ingame, .sb_pregame, .sb_postgame, .sb_redzone {
+	/*background: top left url(/demo/images/sb_overlay.png) repeat-x;*/
+	
+	/* 720p */
+	padding-top: 6px;
+	-moz-border-radius:7px; /* .sb_a's border-radius (10) - border-width (3) */
+	-webkit-border-radius:6px;
+	border-radius:7px;
+}
+.sb_redzone {
+	background-image: url(/demo/images/sb_overlay_red.png);
+}
+
+.sb_team, .sb_score, .sb_gray, .sb_white {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+
+	/* 720p *
+	padding: 0px 12px 0 24px;
+	height: 32px;
+	
+	/* 668p */
+	padding: 0px 11px 0 22px;
+	height: 29px;
+	/* */
+}
+.sb_team { font-size:105%; color: #fff; text-transform:uppercase; }
+.sb_score { float: right; color: #FFE595; }
+.sb_gray { font-size:87%; color: #ffc500; }
+.sb_white { font-size:87%; color: #aaa; }
+
+.sb_bases { float: left; }
+.sb_bases img { 
+	border:0; 
+	
+	/* 720p *
+	width: 64px; 
+	height: 64px; 
+	padding: 8px;
+	/* 668p */
+	width: 59px; 
+	height: 59px; 
+	padding: 8px;
+	/* */
+}
+
+.sb_fav { border-color:#FFD13A; }
+
+#sb_nogames {
+	background: #222;
+	border-style:solid;
+	border-color:#B7B0B8;
+	color: #666;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	margin:0 auto;
+	opacity:0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	position:relative; 
+	text-align: center; 
+	width:70%;
+
+	/* 720p *
+	border-width:3px;
+	height:469px; /* = page_div - border-width *
+	line-height:469px;
+	
+	/* 668p */
+	border-width:3px;
+	height:431px;
+	line-height:431px;
+	/* */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+/*------------------------------------------------------
+ * Ticker
+ *------------------------------------------------------*/
+#ticker-div {
+	border-top:3px solid #fc0;
+	bottom:0;
+	left:0;
+	right:0;
+	font-size:105%;
+	position:absolute;	
+	z-index:9001;
+	overflow:hidden;
+}
+#ticker-title {
+	background:#A80B00 url(/demo/images/ticker_bg.gif);
+	border-right:3px solid #fc0;
+	color:#fc7;
+	float:left;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	padding: 0 20px;
+	text-align:center;
+	text-shadow: #000 1px 1px 3px;
+}
+#ticker-text {
+	background:#000;
+	color:#fff;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	overflow:hidden;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+#ticker-text a {
+	color:#fff;
+	text-decoration:none;
+}
+#ticker-text a:hover {
+	text-decoration:underline;
+}
+
+#ticker-title, #ticker-text {
+	/*height:40px; /* 720p */
+	height:32px; /* 668p */
+	line-height:28px;
+}
+
+/*------------------------------------------------------
+ * TV Show Menu Module
+ *------------------------------------------------------*/
+.show_page_div {
+	position:absolute;
+
+	/* 720p *
+	top:150px;
+	left:970px;
+	width:300px;
+	height:475px;
+	
+	/* 668p */
+	top:138px;
+	left:902px;
+	width:276px;
+	height:437px;
+	/* */
+}
+.default_show_div_off, .default_show_div_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	display:block;
+	position:relative;
+	overflow:hidden;
+	text-decoration:none;
+	/*text-align:left;*/
+
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	
+	/*border-width: 0 5 0 5;
+	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	
+}
+.default_show_div_off {
+	background: #000;
+	border-color: #111;
+	/*background: url(/demo/images/black75.png);
+	border-color:transparent;*/
+	z-index:0;
+}
+.default_show_div_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+	text-shadow: #000 1px 1px 3px;
+	z-index:10;
+}
+
+#show_info {
+	position:absolute;
+	text-shadow: #000 1px 1px 3px;
+	
+	/* 720p *
+	top:550px;
+	left:32px;
+	width:900px;
+	height:150px;
+	
+	/* 668p */
+	top:506px;
+	left:29px;
+	width:828px;
+	height:138px;
+	/* */	
+}
+#show_title { 
+	font-size: 150%;
+}
+#show_description { 
+	font-size: 80%;
+}
+
+#show_cover {
+	float:left;
+	height: 75%; /* #show_info height-40 */
+	-moz-box-shadow:1px 1px 3px #000;
+	-webkit-box-shadow:1px 1px 3px #000;
+	box-shadow:1px 1px 3px #000;
+	
+	/* 720p *
+	border: 4px solid white;
+	margin: 10px 16px 20px 0;
+	
+	/* 668p */
+	border: 4px solid white;
+	margin: 9px 15px 48px 0;
+	/* */
+}
+
+#show_season_div {
+	position:absolute;
+	text-align:center;
+	
+	/* 720p *
+	top:16px;
+	left:970px;
+	width:300px;
+	height:100px;
+	line-height:100px;
+	
+	/* 668p */
+	top:15px;
+	left:882px;
+	width:276px;
+	height:92px;
+	/*line-height:92px;*/
+	/* */
+}
+
+#show_left_img, #show_right_img {
+	padding-top:12%;
+	height:33%;
+	opacity:0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	cursor:pointer;
+}
+#show_left_img:hover, #show_right_img:hover {
+	opacity:1.0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+#show_season {
+	color:#ffe71c;
+	font-size:150%;
+	height:100%;
+	text-shadow:#fff 1px 1px 3px;
+}
+#show_season img {
+	border:0px solid white;
+	height:100%;
+}
+#show_season_title {
+	color:#ffe71c;
+	font-size:150%;
+	line-height:normal;
+	text-align:center;
+	text-shadow:#fff 1px 1px 3px;
+	white-space:normal;
+}
+.show_season_subtitle {
+	color:#aaa;
+	font-size:100%;
+}
+
+/*------------------------------------------------------
+ * Hulu List
+ *------------------------------------------------------*/
+#hulu_key_art {
+	position:absolute;
+	display:block;
+	border-style:solid;
+	border-width:5px 5px 5px 0;
+	border-color:#555;
+	
+	/* 668p */
+	left:0px;
+	top:120px;
+	width:880px;
+	height:342px;
+}
+
+/*------------------------------------------------------
+ * VLC Video Module
+ *------------------------------------------------------*/
+
+#vlc_div {
+	/* Javscript */
+	/*height: 476px; /* height-4 */
+}
+
+#vlc_osd {
+	background: url(/demo/images/vlc_bg_dark.gif) repeat-x #222;
+	border-top: 4px solid #000;
+	color:#aaa;
+	height:32px;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+}
+
+#vlc_pause, #vlc_play {
+	background-image:url(/demo/images/vlc_play.gif);
+	cursor:pointer;
+	float:left;
+	height:100%;
+	width:45px;
+}
+#vlc_pause {
+	background-position:top left;
+}
+#vlc_pause:hover {
+	background-position:bottom left;
+}
+#vlc_play {
+	background-position:top right;
+}
+#vlc_play:hover {
+	background-position:bottom right;
+}
+
+#vlc_wrap {
+	float:left;
+	height:100%;
+}
+#vlc_track {
+	cursor:pointer;
+	height: 100%;
+	position: relative;
+}
+#vlc_handle {
+	background:url(/demo/images/vlc_bg_light.gif) #888;
+	cursor:col-resize;
+	height:32px;
+	width:5px;
+	position: absolute;
+}
+#vlc_handle:hover {
+	background:url(/demo/images/vlc_bg_lighter.gif) #aaa;
+}
+
+
+#vlc_live {
+	background:transparent;
+}
+#vlc_prog {
+	background:url(/demo/images/vlc_bg_lighter.gif) #aaa;
+	cursor:col-resize;
+	height:32px;
+	width:5px;
+	position: absolute;
+}
+
+#vlc_channel {
+	background-image:url(/demo/images/vlc_timer.gif);
+	float:left;
+	height:100%;
+	font-size:150%;
+	line-height:32px;
+	width:45px;
+}
+
+#vlc_timer {
+	background:url(/demo/images/vlc_timer.gif) top left;
+	float:right;
+	height:100%;
+	line-height:32px;
+	width:128px;
+}
+#vlc_trackfill {
+	background: #444 url(/demo/images/vlc_bg_med.gif) repeat-x;
+	float:left;
+	height:100%;
+}
+
+#vlc_status {
+	background:url(/demo/images/vlc_timer.gif) top left; 
+	float:right; 
+	height:100%; 
+	line-height:32px; 
+	width:192px;
+}
+
+/*------------------------------------------------------
+ * Movie Menu Module
+ *------------------------------------------------------*/
+
+#movie_info {
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+
+	position:absolute;
+	background: url(/demo/images/black75.png);
+	
+	/* 720p *
+	bottom:32px;
+	left:32px;
+	padding:20px;
+	width:900px;
+	height:110px;
+	
+	/* 668p */
+	bottom:29px;
+	left:29px;
+	padding:18px;
+	width:830px;
+	height:100px;
+	/* */
+}
+#movie_title { 
+	font-size: 150%;
+}
+#movie_subtitle {
+	
+}
+#movie_year {
+	color: #aaa;
+}
+#movie_description { 
+	font-size: 80%;
+}
+#movie_cover {
+	float:left;
+	height: 100%;
+	/* 720p *
+	border: 4px solid white;
+	margin-top:-4px;
+	margin-right: 16px;
+	
+	/* 668p */
+	border: 4px solid white;
+	margin-top:-4px;
+	margin-right: 15px;
+	/* */
+}
+
+#movie_buttons {
+	position:absolute;
+	
+	/* 720p *
+	bottom:32px;
+	right:32px;
+	width:260px;
+	height:150px;
+	
+	/* 668p */
+	bottom:29px;
+	right:29px;
+	width:228px;
+	height:136px;
+	/* */
+}
+.default_movie_btn_off, .default_movie_btn_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	text-align:center;
+	text-shadow: #000 1px 1px 3px;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+
+	/* 720p *
+	height:63px;
+	line-height:63px;
+	margin-bottom:16px;
+	
+	/* 668p */
+	height:56px;
+	line-height:54px;
+	margin-bottom:16px;
+	/* */
+}
+.default_movie_btn_off {
+	background: url(/demo/images/black75.png);
+	border-color:transparent;
+}
+
+.default_movie_btn_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+}
+
+/*------------------------------------------------------
+ * VLC Audio Player (Now Playing)
+ *------------------------------------------------------*/
+#vlc_audio_title {
+	font-size:110%;
+	font-weight:bold;
+	text-shadow: #000 1px 1px 3px;
+}
+#vlc_audio_artist {
+	color: #ccc;
+	text-shadow: #000 1px 1px 3px;
+}
+#vlc_audio_album {
+	color: #ccc;
+	text-shadow: #000 1px 1px 3px;
+}
+
+#vlc_audio_wrap {
+	background:url(/demo/images/vlc_old/vlc_bg_dark.gif) 50%;
+	float:left;
+	border:1px solid #aaa;
+	
+	/* 720p */
+	/* 668p */
+	height:18px;
+}
+#vlc_audio_status {
+	color:#ccc;
+	font-size:80%;
+	position:absolute;
+	text-align:center;
+	
+	/* 720p */
+	/* 668p */
+	height:18px;
+	line-height:18px;
+}
+#vlc_audio_handle {
+	background:#aaa;
+	cursor:move;
+	height:100%;
+	width:4px;
+}
+#vlc_audio_trackfill {
+/*	background: #444 url(/demo/images/vlc_old/vlc_bg_light.gif) 50% repeat-x; /**/
+	background: #444 url(/demo/images/progress.gif) 0 -1px repeat-x; /**/
+	float:left;
+	height:100%;
+}
+#vlc_audio_elapsed, #vlc_audio_remaining  {
+	float:left;
+	color:#aaa;
+	font-size:90%;
+}
+#vlc_audio_progress {
+	padding-top:10px;
+	height:20px;
+	line-height:20px;
+}
+
+/*------------------------------------------------------
+ * Music Library Root (browse artists)
+ *------------------------------------------------------*/
+.music_root_div_off, .music_root_div_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	display:block;
+	float:left;
+	position:relative;
+	text-decoration:none;
+	text-align:left;
+	text-shadow: #000 1px 1px 3px;
+
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.music_root_div_off {
+	border-color:transparent;
+	z-index:0;
+}
+.music_root_div_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+	z-index:10;
+}
+
+.music_root_div_off .cover, .music_root_div_on .cover {
+	float:left;
+	height:100%;
+	padding-right:10px;
+}
+
+.music_root_div_off .subtitle, .music_root_div_on .subtitle {
+	float:right;
+	padding-right:10px;
+}
+.music_root_div_off .subtitle {
+	color:#777;
+}
+.music_root_div_on .subtitle {
+	color:#333;
+	text-shadow: #666 1px 1px 3px;
+}
+
+.music_root_sb_off, .music_root_sb_on {
+	float:left;
+	cursor:pointer;
+	border-width:2px;
+	border-style:solid;
+	text-align:center;
+	margin:0 0 0 4px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.music_root_sb_off {
+	/*background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	border-color:#333;*/
+	border-color:#333;
+	opacity:0.5;
+}
+.music_root_sb_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+}
+.music_root_sb_off .subtitle {
+	display:none;
+}
+.music_root_sb_on img {
+	z-index: 50;
+}
+.music_root_sb_on .subtitle {
+	border-top:2px solid #999;
+	border-left:2px solid #999;
+	border-bottom:2px solid #999;
+	margin-top:-2px;
+
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	display:inline;
+	font-size:80%;
+	position:absolute; 
+	text-align:left;
+	text-shadow: #000 2px 2px 3px;
+	white-space: nowrap; 
+	z-index:10;
+
+	/* 720p */
+	/* 668p */
+	/*margin-left:-10px; /* same as .sidebar_on's border radius */
+	padding:0 14px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+
+/*------------------------------------------------------
+ * Music Library Artist (browse albums)
+ *------------------------------------------------------*/
+#music_artist_submenu {
+	position:absolute;
+	text-align:center;
+	top:0;
+	width:100%;
+	
+	/* 668p */
+	/*top:280px;*/
+
+}
+
+#music_artist_submenu0 {
+	font-size: 150%;
+}
+
+#music_artist_submenu0.music_artist_off {
+	text-shadow: #000 1px 1px 3px;
+}
+#music_artist_submenu0.music_artist_on {
+	background:none;
+	border:none;
+	text-shadow: #000 0px 4px 7px;
+}
+
+
+.music_artist_off, .music_artist_on {
+	background:none;
+	border:2px solid transparent;
+	color:#fff;
+	cursor:pointer;
+	overflow:hidden;
+	padding: 8px 8px;
+	position:relative;
+	text-shadow: #000 1px 1px 3px;
+	text-align:center;
+	white-space:nowrap;
+	z-index:60;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.music_artist_off {
+	opacity: 0.5;
+}
+
+.music_artist_on {
+	/*background:#333;
+	border-color:#aaa;*/
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+}
+
+.music_artist_off img, .music_artist_on img {
+	vertical-align:middle;
+	/* 668p */
+	width:40px;
+}
+
+/*------------------------------------------------------
+ * Music Library Album (lists tracks)
+ *------------------------------------------------------*/
+.music_album_div {
+	position:absolute;
+
+	/* 720p *
+	top:150px;
+	left:640px;
+	width:600px;
+	height:475px;
+	/* */
+	
+	/* 668p */
+	top:138px;
+	left:569px;
+	width:604px;
+	height:437px;
+}
+
+#music_album_cover_div {
+	position:absolute;
+	top:138px;
+	left:140px;	
+	width: 400px;
+	height: 600px;
+}
+.music_album_div_off, .music_album_div_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	display:block;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:left;
+	text-shadow: #000 1px 1px 3px;
+
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.music_album_div_off {
+	border-color:transparent;
+	z-index:0;
+}
+.music_album_div_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+	z-index:10;
+}
+.music_album_div_off img {
+	opacity:0.5;
+}
+.music_album_div_on img {
+	opacity:1.0;
+}
+
+.music_album_sb_off, .music_album_sb_on {
+	float:left;
+	cursor:pointer;
+	border-width:2px;
+	border-style:solid;
+	text-align:center;
+	margin:0 0 0 4px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.music_album_sb_off {
+	/*background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	border-color:#333;*/
+	border-color:transparent;
+	opacity:0.5;
+}
+.music_album_sb_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+}
+.music_album_sb_off .subtitle {
+	display:none;
+}
+.music_album_sb_on img {
+	z-index: 50;
+}
+.music_album_sb_on .subtitle {
+	border-top:2px solid #999;
+	border-left:2px solid #999;
+	border-bottom:2px solid #999;
+	margin-top:-2px;
+
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	display:inline;
+	font-size:80%;
+	position:absolute; 
+	text-align:left;
+	text-shadow: #000 2px 2px 3px;
+	white-space: nowrap; 
+	z-index:10;
+
+	/* 720p */
+	/* 668p */
+	/*margin-left:-10px; /* same as .sidebar_on's border radius */
+	padding:0 14px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+/*------------------------------------------------------
+ * Screen saver
+ *------------------------------------------------------*/
+#ssaver_div {
+	z-index:7000;
+	position:absolute;
+	background-color:#000;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+#ssaver_img {
+	/*border:8px solid #666;*/
+	border:8px solid #fff;
+	max-width:70%;
+	max-height:70%;
+	position:relative;
+}
+#ssaver_music_div {
+	/*background: url(/demo/images/black25.png);*/
+	text-shadow: #000 1px 1px 3px;
+	position:absolute;
+	z-index:7001;
+
+	/* 720p */
+	/* 668p */
+	left:32px;
+	/*bottom:64px;*/
+	top:32px;
+	height:96px;
+	line-height:32px; /* height/3 */
+	padding:20px 116px 20px 20px;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+}
+#ssaver_music_cover {
+	float:left;
+	height:100%;
+	border:4px solid white;
+	margin-top:-4px;
+	-moz-box-shadow:1px 1px 3px #000;
+	-webkit-box-shadow:1px 1px 3px #000;
+	box-shadow:1px 1px 3px #000;
+	
+	/* 720p */
+	/* 668p */
+	width:96px;
+	margin-right:15px;
+}
+#ssaver_music_title {
+	white-space:nowrap;
+	font-size:110%;
+	font-weight:bold;
+	padding-right:20px;
+}
+#ssaver_music_artist, #ssaver_music_album {
+	white-space:nowrap;
+	color: #ccc;
+	padding-right:20px;
+}
+
+
+/*------------------------------------------------------
+ * Playlist
+ *------------------------------------------------------*/
+#audioplayer_playlist_overlay {
+	z-index:9010;
+	position:absolute;
+	overflow:hidden;
+	top:0;
+	text-shadow: #000 1px 1px 3px;
+	
+	border-left:5px solid #666;
+	border-right:5px solid #666;
+	border-bottom:5px solid #666;
+	/*background: url(/demo/images/black75.png);*/
+	background: #181818;
+	padding:0;
+	
+	/* 668p */
+	width:954px; /* 80% */
+	height:534px; /* 80% */
+	left:114px /* 10% */
+	
+	/*border-top:5px solid #666;
+	/*-moz-border-radius: 20px;
+	/*-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;*/
+}
+#audioplayer_playlist_sidebar {
+	z-index:9030;
+}
+
+#audioplayer_playlist_sidebar div.sidebar_off {
+	background-color:#222;
+}
+
+
+#audioplayer_playlist_header {
+	height:96px;
+	line-height:32px; /* height/3 */
+	padding:16px 32px 0 32px;
+	text-align:right
+}
+#audioplayer_playlist_cover {
+	float:right;
+	height:96px;
+	border:0px solid white;
+	
+	/*margin:-4px;*/
+	/*margin-right:15px;*/
+	
+	/* 720p */
+	/* 668p */
+	width:96px;
+	/*margin-left:16px;*/ /* Vinyl */
+	margin-left:30px; /* CD */
+}
+
+#audioplayer_playlist_cover_bg {
+	float:right;
+	position:relative;
+	z-index:9001;
+	
+	/* 668p */
+	height:164px;
+	width:164px;
+	margin:-23px 0 0px -109px;
+}
+
+#audioplayer_playlist_title {
+	white-space:nowrap;
+	font-size:110%;
+	font-weight:bold;
+}
+#audioplayer_playlist_artist, #audioplayer_playlist_album {
+	white-space:nowrap;
+	color: #ccc;
+}
+
+#audioplayer_playlist_page_div {
+	position: absolute;
+	float:right;
+	
+	/* 668p */
+	top:138px;
+	left:129px;
+	/*right:29px;*/
+	height:343px;
+	width:796px;
+	/*background:#f00;*/
+}
+
+#audioplayer_playlist_overlay #page_up, #audioplayer_playlist_overlay #page_down {
+	z-index:9002;
+	/*background:#ff0;*/
+	width:796px; /* 668p */
+}
+#audioplayer_playlist_overlay #page_down {
+	top:490px; /* 668p */
+}
+
+.audioplayer_playlist_off, .audioplayer_playlist_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	display:block;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-decoration:none;
+	text-align:left;
+	text-shadow: #000 1px 1px 3px;
+	/*white-space:nowrap;*/
+
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.audioplayer_playlist_off {
+	/*	background: transparent url(/demo/images/stripe50.png) repeat;
+	border-color: #333;*/
+	border-color:transparent;
+	z-index:9010;
+}
+.audioplayer_playlist_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+	z-index:9020;
+}
+
+.audioplayer_playlist_off .cover, .audioplayer_playlist_on .cover {
+	float:left;
+	height:100%;
+	padding-right:10px;
+}
+.audioplayer_playlist_off .playnow, .audioplayer_playlist_on .playnow {
+	float:right;
+	height:100%;
+}
+.audioplayer_playlist_off .playnow {
+	opacity:0.5;
+}
+
+.audioplayer_playlist_off .subtitle, .audioplayer_playlist_on .subtitle {
+	font-size:80%;
+}
+.audioplayer_playlist_off .subtitle {
+	color:#777;
+}
+.audioplayer_playlist_on .subtitle {
+	color:#333;
+	text-shadow: #666 1px 1px 3px;
+}
+
+.audioplayer_playlist_btn_off, .audioplayer_playlist_btn_on {
+	float:left;
+	cursor:pointer;
+	border-width:2px;
+	border-style:solid;
+	text-align:center;
+	margin:0 0 0 4px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.audioplayer_playlist_btn_off {
+	/*background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	border-color:#333;*/
+	border-color:#333;
+	opacity:0.5;
+}
+.audioplayer_playlist_btn_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+}
+.audioplayer_playlist_btn_off .subtitle {
+	display:none;
+}
+.audioplayer_playlist_btn_on img {
+	z-index: 9020;
+}
+.audioplayer_playlist_btn_on .subtitle {
+	border-top:2px solid #999;
+	border-left:2px solid #999;
+	border-bottom:2px solid #999;
+	margin-top:-2px;
+
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	display:inline;
+	font-size:80%;
+	position:absolute; 
+	text-align:left;
+	text-shadow: #000 2px 2px 3px;
+	white-space: nowrap; 
+	z-index:9011;
+
+	/* 720p */
+	/* 668p */
+	/*margin-left:-10px; /* same as .sidebar_on's border radius */
+	padding:0 14px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+
+
+
+
+.youtube_list_div_off, .youtube_list_div_on {
+	border-width:2px;
+	border-style:solid;
+	color:#fff;
+	cursor:pointer;
+	display:block;
+	position:relative;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:left;
+	text-shadow: #000 1px 1px 3px;
+
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	
+	/*border-width: 0 5 0 5;
+	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	
+}
+
+.youtube_list_div_off {
+	/*background: transparent url(/demo/images/stripe50.png) repeat;*/
+	/*background: #000;*/
+	background:none;
+	/*border-color: #333;*/
+	border-color:transparent;
+	z-index:0;
+}
+.youtube_list_div_on {
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	/*border-color: #333;*/
+	border-color: #999;
+	z-index:10;
+}
+
+.youtube_list_div_off .cover, .youtube_list_div_on .cover {
+	float:left;
+	height:100%;
+	padding-right:10px;
+}
+.youtube_list_div_off .description {
+	color:#aaa;	
+}
+.youtube_list_div_on .description {
+	color:#fff;
+}
+
+.youtube_list_div_off .descr_text, .youtube_list_div_on .descr_text {
+	float:left;
+	
+	/* 668p */
+	width:500px;
+}
+.youtube_list_div_off .from, .youtube_list_div_on .from {
+	padding-right:10px;
+	float:right;
+	clear:right;
+}
+.youtube_list_div_off .views, .youtube_list_div_on .views {
+	padding-right:10px;
+	float:right;
+	clear:right;
+}
+.youtube_list_div_off .time, .youtube_list_div_on .time {
+	padding-right:10px;
+	float:right;
+	clear:right;
+}
+.youtube_list_div_off .ratings, .youtube_list_div_on .ratings {
+	display:none;
+}
+.youtube_list_div_off .category, .youtube_list_div_on .category {
+	display:none;
+}
+
+.default_search_input {
+	background:#000;
+	padding-left:10px;
+	position:absolute;
+	font-size:150%;
+	border:2px solid #999;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;	
+	border-radius:10px;
+	
+	position:absolute;
+	left:346px;
+	width:490px;
+	top:150px;
+}
+
+.default_search_keys {
+	position:absolute;
+	left:346px;
+	width:500px;
+	top:200px;
+}
+
+.default_search_div_off, .default_search_div_on {
+	float:left;
+	text-align:center;
+	cursor:pointer;
+	border-width:2px;
+	border-style:solid;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.default_search_div_off {
+	background: transparent url(/demo/images/stripe50.png) repeat;
+	/*background: #0e0e0e;*/
+	border-color: #333;
+	z-index:0;
+}
+.default_search_div_on {
+	/*background: #666  repeat-x;*/
+	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	border-color: #999;
+	text-shadow: #000 1px 1px 3px;
+	z-index:10;
+}
+
+
+
+
+.youtube_page_div {
+	width:600px;
+	left:auto;
+	right:29px;
+}
+.youtube_page_div .title {
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.youtube_page_div .youtube_list_div_off .descr_text, 
+.youtube_page_div  .youtube_list_div_on .descr_text {
+	float:left;
+	
+	/* 668p */
+	width:300px;
+}
+.youtube_page_div .youtube_list_div_off .from, 
+.youtube_page_div .youtube_list_div_on .from {
+	display:none;
+}
+.youtube_page_div .youtube_list_div_off .views, 
+.youtube_page_div .youtube_list_div_on .views {
+
+}
+.youtube_page_div .youtube_list_div_off .time, 
+.youtube_page_div .youtube_list_div_on .time {
+	display:none;
+}
+.youtube_page_div .youtube_list_div_off .ratings, 
+.youtube_page_div .youtube_list_div_on .ratings {
+	display:none;
+}
+.youtube_page_div .youtube_list_div_off .category, 
+.youtube_page_div .youtube_list_div_on .category {
+	display:none;
+}
+
+
+.youtube_search_input {
+	background:#000;
+	padding-left:10px;
+	position:absolute;
+	font-size:150%;
+	border:2px solid #999;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	position:absolute;
+
+	left:29px;
+	width:490px;
+	top:150px;
+}
+
+.youtube_search_keys {
+	position:absolute;
+
+	left:29px;
+	width:500px;
+	top:200px;
+}
+
+.youtube_search_div_off, .youtube_search_div_on {
+	float:left;
+	text-align:center;
+	cursor:pointer;
+	border-width:2px;
+	border-style:solid;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.youtube_search_div_off {
+	background: transparent url(/demo/images/stripe50.png) repeat;
+	/*background: #0e0e0e;*/
+	border-color: #333;
+	z-index:0;
+}
+.youtube_search_div_on {
+	background: #666  repeat-x;
+	border-color: #999;
+	text-shadow: #000 1px 1px 3px;
+	z-index:10;
+}
+
+
+
+
+
+#guide_div {
+	position:absolute;
+	/*width:900px;
+	/*height:540px;
+	top:96px;*/
+	/*height:604px;
+	top:32px;	
+	right:32px;*/
+	
+	width:1128px;
+	bottom:32px;
+	left:32px;
+	height:480px;
+	
+	overflow:hidden;
+}
+.guide_time_div {
+	font-weight:bold;
+	text-align:left;
+	text-shadow: #000 1px 1px 3px;
+	display:block;
+	float:left;
+	border:0;
+	margin:0 -8px 0 8px;
+	padding:0;
+}
+.guide_chn_num {
+	font-weight:bold;
+	color:#ffe71c;
+}
+.guide_chn_off, .guide_chn_on, .guide_div_off, .guide_div_on {
+	border-width:2px;
+	border-style:solid;
+	cursor:pointer;
+	display:block;
+	float:left;
+	position:relative;
+	text-decoration:none;
+	text-align:left;
+	text-shadow: #000 1px 1px 3px;
+	overflow:hidden;
+	/*white-space:nowrap;*/
+	font-size:80%;
+	
+	-moz-border-radius:10px;
+}
+/* WebKit does not allow border-radius on images */
+.guide_div_off, .guide_div_on {
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.guide_chn_off, .guide_chn_on {
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.guide_chn_off {
+	background: #aaa url(/demo/images/stripe50.png) repeat;
+	border-color: #888;
+	z-index:0;
+}
+.guide_chn_on {
+	background: #666 url(/demo/images/sb_overlay.png) repeat-x;
+
+	border-color: #ffe71c;
+	z-index:10;
+}
+.guide_div_off {
+	background: transparent url(/demo/images/stripe50.png) repeat;
+	border-color: #444;
+	z-index:1;
+}
+.guide_div_on {
+	background: rgba(128,128,128,0.5) url(/demo/images/sb_overlay.png) repeat-x;
+	border-color: #ffe71c;
+	z-index:10;
+}
+#guide_details {
+	position:absolute;
+	text-shadow: #000 1px 1px 3px;
+	top:16px;
+	right:0px;
+	width:900px;
+	height:138px;
+}
+
+#guide_detail_show {
+	font-size:125%;
+	color:#ffe71c;
+	display:block;
+}
+#guid_detail_time {
+	font-size:80%;
+	display:block;
+}
+#guid_detail_description {
+	font-size:72%;
+	display:block;
+}
+#guid_detail_episode {
+	display:block;
+}
+
+#guide_progress {
+	position: absolute;
+	background:#ffe71c;
+	z-index:0;
+	width:2px;
+	bottom:32px;
+	height:480px;
+}
+
+
+
+/* Convection 22px */
+body { font-family:Convection,Tahoma,Geneva,Arial,sans-serif; font-size:22px; }
+.default_page_title { font-size:240%; }
+.sb_gray, .sb_white { font-size:83%; }
+.sb_team, .sb_score { font-size:100%; }
+#ticker-div { font-size:100%; }
+/* */

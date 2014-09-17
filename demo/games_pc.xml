@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>PC Games</title>
+<background></background>
+<prefix></prefix>
+<ticker>0</ticker>
+<rows>3</rows>
+<columns>4</columns>
+
+<item>
+<title>Morrowind</title>
+<subtitle>The Elder Scrolls III</subtitle>
+<link type="steam">22320</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/22320/header.jpg</cover>
+</item>
+
+<item>
+<title>Team Fortress 2</title>
+<link type="steam">440</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/440/header.jpg</cover>
+</item>
+
+<item>
+<title>Super Meat Boy</title>
+<link type="steam">40800</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/40800/header.jpg</cover>
+</item>
+
+<item>
+<title>Portal 2</title>
+<link type="steam">620</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/620/header.jpg</cover>
+</item>
+
+<item>
+<title>Half-Life 2</title>
+<link type="steam">220</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/220/header.jpg</cover>
+</item>
+
+<item>
+<title>Batman</title>
+<subtitle>Arkham City</subtitle>
+<link type="steam">57400</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/57400/header.jpg</cover>
+</item>
+
+<item>
+<title>VVVVVV</title>
+<link type="steam">70300</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/70300/header.jpg</cover>
+</item>
+<!--
+<item>
+<title>On the Rain-Slick Precipice of Darkness</title>
+<subtitle>Episode One</subtitle>
+<link type="steam">18000</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/18000/header.jpg</cover>
+</item>
+-->
+<item>
+<title>On the Rain-Slick Precipice of Darkness</title>
+<subtitle>Episode Two</subtitle>
+<link type="steam">18020</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/18020/header.jpg</cover>
+</item>
+
+<item>
+<title>Peggle Extreme</title>
+<link type="steam">3483</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/3483/header.jpg</cover>
+</item>
+
+<item>
+<title>Call of Duty</title>
+<subtitle>Modern Warfare 3</subtitle>
+<link type="steam">115300</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/115300/header.jpg</cover>
+</item>
+
+<item>
+<title>Rage</title>
+<link type="steam">9200</link>
+<cover>http://cdn.steampowered.com/v/gfx/apps/9200/header.jpg</cover>
+</item>
+
+</channel>
+</rss>

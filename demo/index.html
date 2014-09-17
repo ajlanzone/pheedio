@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Media Center Demo</title>
+<script type="text/javascript" src="js/ext/prototype-1.6.0.3.js"></script>
+<link type="text/css" rel="stylesheet" href="/demo/css/base_668.css">
+<style type="text/css">
+body { background-color:#333;color:#aaa;text-shadow:1px 1px 0 #000; }
+a { color:#eee; }
+a:hover { color:#FFE71C; }
+#preview{
+height:503px;
+background:black url(/demo/images/demo.jpg) top center no-repeat;
+-moz-box-shadow:0 0 8px black; 
+-webkit-box-shadow:0 0 8px black;
+box-shadow:0 0 8px black;
+width:896px;
+margin:16px auto 16px auto;
+}
+#launch {
+width:192px;
+height:64px;
+line-height:64px;
+text-align:center;
+position:relative;
+top:168px;
+margin:0 auto;
+cursor:pointer;
+font-size:24px;
+border:2px solid #333;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+background-color:rgba(0,0,0,0.75);
+-moz-box-shadow:0 0 8px black; 
+-webkit-box-shadow:0 0 8px black; 
+box-shadow:0 0 8px black; 
+}
+#launch:hover {
+-moz-box-shadow:0 0 16px white; 
+-webkit-box-shadow:0 0 16px white; 
+box-shadow:0 0 16px white; 
+}
+#dbody {
+width:640px;
+margin:0 auto;
+font-size:16px;
+font-family:Arial,sans-serif;
+}
+</style>
+</head>
+
+<body onload="preload();">
+
+<div style="text-align:center;font-family:Zekton,ZektonBoldWeb,Tahoma,Verdana,Geneva,sans-serif; font-weight:bold; font-size:250%;">media center demo</div>
+<div style="text-align:center;font-size:13px;">Copyright &copy; 2012 Andrew Lanzone</div>
+ 
+<div id="preview">
+<script type="text/javascript">
+if (Prototype.Browser.Gecko || Prototype.Browser.WebKit) {
+	document.write('<div id="launch" onclick="window.open(\'demo.html\',\'demo\',\'height=668,width=1192,resizable=0\'); return false;">Launch Demo</div>');
+}
+</script>
+</div>
+
+<div id="dbody">
+<script type="text/javascript">
+if (Prototype.Browser.Gecko || Prototype.Browser.WebKit) {
+	document.write('<p>This is a demo of a media center application written entirely in HTML, JavaScript, and PHP. I use this application on my media center PC at home. It is designed to run in Firefox, Chrome, or Safari and be controlled via a keyboard, remote control, or mouse.</p>');
+	document.write('<p>Instructions:</p><ul><li><b>Arrow Keys</b>: navigate the menus</li><li><b>Enter</b>: Select or activate the current menu item</li><li><b>Escape</b>: Go back to the previous menu</li></ul>');
+	document.write('<p>You can also use the mouse to control the media center.<br>To go back, move the cursor to the top-left corner and the back icon <img align="middle" src="images/other/toolbar/go-back.png"> will appear.</p>');
+	document.write('<p>Since this is only a demo, some features have been disabled, such as the ability to watch movies. The full version that I use at home has no such limitations.</p>');
+}
+else {
+	document.write('<div>Sorry, the Media Center Demo does not support your browser.<br><br>To get the best experience with the Media Center Demo, try <a href="http://www.mozilla.com/">Mozilla Firefox</a> or <a href="http://www.google.com/chrome">Google Chrome</a>.</div>');
+}
+</script>
+<noscript>JavaScript must be enabled.</noscript>
+</div>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-22208509-1']);
+_gaq.push(['_setDomainName', '.pheedio.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+function preload() {
+var img;
+for (var i=0; i<_preloadList.length; i++) {
+img=new Image();
+img.src=_preloadList[i];
+}
+}
+var _preloadList = [
+'images/stripe50.png',
+'images/exec.gif',
+'images/ticker_bg.gif',
+'images/icons/tv.png',
+'images/icons/movies2.png',
+'images/icons/jukebox.png',
+'images/icons/radio.png',
+'images/icons/pc.png',
+'images/bg/668/background.jpg',
+'images/bg/668/background.png',
+'images/bg/668/background_main_shows.jpg',
+'images/bg/668/background_main_movies.jpg',
+'images/bg/668/background_main_music.jpg',
+'images/bg/668/background_games_pc.jpg',
+'images/bg/668/background_main_weather.jpg',
+'images/bg/668/background_main_radio.jpg',
+'images/bg/668/background_scoremenu_5.jpg',
+'images/icons/espn.png',
+'images/icons/google.png',
+'images/icons/hulu.png',
+'images/icons/internet.png',
+'images/icons/news.png',
+'images/icons/slingbox.png',
+'images/icons/sport5.png',
+'images/icons/sport24.png',
+'images/icons/sport49.png',
+'images/icons/sport73.png',
+'images/icons/sport99.png',
+'images/icons/sport142.png',
+'images/icons/tvguide.png',
+'images/icons/youtube.png',
+'images/bg/668/background_scoremenu_24.jpg',
+'images/bg/668/background_scoremenu_49.jpg',
+'images/bg/668/background_scoremenu_73.jpg',
+'images/bg/668/background_scoremenu_99.jpg',
+'images/bg/668/background_scoremenu_142.jpg',
+'images/bg/668/background_espn.jpg',
+];
+</script>
+<script type="text/javascript" src="js/ext/scriptaculous.js"></script>
+<script type="text/javascript" src="js/combined.min.js"></script>
+</body>
+</html>

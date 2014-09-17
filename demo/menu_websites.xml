@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Web Sites</title>
+<background/>
+<ticker>1</ticker>
+<columns>4</columns>
+<rows>4</rows>
+
+<item>
+<title>ESPN.com</title>
+<cover>images/sites/espn.gif</cover>
+<link type="href">http://www.espn.com</link>
+</item>
+
+<item>
+<title>Amazon.com</title>
+<cover>images/sites/amazon.gif</cover>
+<link type="href">http://www.amazon.com/</link>
+</item>
+
+<item>
+<title>Weather.com</title>
+<cover>images/sites/weather.gif</cover>
+<link type="href">http://www.weather.com/weather/local/92078?cm_pla=city_page&amp;cm_ite=cc&amp;site=city_page&amp;cm_ven=LWO&amp;cm_cat=&amp;par=LWO_</link>
+</item>
+
+<item>
+<title>Movie Showtimes</title>
+<cover>images/sites/yahoomovies.gif</cover>
+<link type="href">http://movies.yahoo.com/showtimes/showtimes.html?z=92078&amp;m=&amp;t=&amp;a=&amp;s=tm&amp;r=sim&amp;p=0&amp;get=Get+Showtimes</link>
+</item>
+
+<item>
+<title>Google</title>
+<cover>images/sites/google.gif</cover>
+<link type="href">http://www.google.com/</link>
+</item>
+
+<item>
+<title>Hulu</title>
+<cover>images/sites/hulu.gif</cover>
+<link type="href">http://www.hulu.com/</link>
+</item>
+
+<item>
+<title>Joost</title>
+<cover>images/sites/joost.gif</cover>
+<link type="href">http://www.joost.com/</link>
+</item>
+
+<item>
+<title>Metacritic</title>
+<cover>images/sites/metacritic.gif</cover>
+<link type="href">http://www.metacritic.com/</link>
+</item>
+
+<item>
+<title>MLB.com</title>
+<cover>images/sites/mlb.gif</cover>
+<link type="href">http://mlb.mlb.com/enterworkflow.do?flowId=registration.dynaindex&amp;c_id=mlb&amp;forwardUrl=/mediacenter/index.jsp</link>
+</item>
+
+<item>
+<title>NBA.com</title>
+<cover>images/sites/nba.gif</cover>
+<link type="href">http://www.nba.com/video/index.html</link>
+</item>
+
+</channel>
+</rss>

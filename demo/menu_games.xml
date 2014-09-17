@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Video Games</title>
+<ticker>1</ticker>
+<rows>3</rows>
+<columns>2</columns>
+
+<item>
+<title>Game Boy</title>
+<cover>images/icons/gameboy.png</cover>
+<background>images/bg/%SIZE%/background_games_gameboy.jpg</background>
+<link type="menu_grid" sort="1">games_gameboy.xml</link>
+</item>
+
+<item>
+<title>PC Games</title>
+<cover>images/icons/pc.png</cover>
+<background>images/bg/%SIZE%/background_games_pc.jpg</background>
+<link type="menu_grid" sort="1">games_pc.xml</link>
+</item>
+
+<item>
+<title>Nintendo</title>
+<cover>images/icons/games.png</cover>
+<background>images/bg/%SIZE%/background_games_nes.jpg</background>
+<link type="menu_grid" sort="1">games_nintendo.xml</link>
+</item>
+
+<item>
+<title>Sega Genesis</title>
+<cover>images/icons/genesis.png</cover>
+<background>images/bg/%SIZE%/background_games_genesis.jpg</background>
+<link type="menu_grid" sort="1">games_genesis.xml</link>
+</item>
+
+<item>
+<title>Super Nintendo</title>
+<cover>images/icons/snes.png</cover>
+<background>images/bg/%SIZE%/background_games_snes.jpg</background>
+<link type="menu_grid" sort="1">games_snes.xml</link>
+</item>
+
+<item>
+<title>Atari 2600</title>
+<cover>images/icons/atari.png</cover>
+<background>images/bg/%SIZE%/background_games_atari.jpg</background>
+<link type="menu_grid" sort="1">games_atari.xml</link>
+</item>
+
+
+</channel>
+</rss>

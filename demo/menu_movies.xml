@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Movies</title>
+<background></background>
+<prefix></prefix>
+<ticker>0</ticker>
+<rows>2</rows>
+<columns>6</columns>
+
+<item>
+<title>Cars</title>
+<description>A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.</description>
+<rating>PG</rating>
+<year>2006</year>
+<duration>90</duration>
+<review>7</review>
+<writer>John Lasseter, Joe Ranft</writer>
+<cast>Owen Wilson, Paul Newman, Bonnie Hunt</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Cars.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Cars.jpg</background>
+</item>
+
+<item>
+<title>( Streaming )</title>
+<cover>/demo/demo/covers/streaming_sites.jpg</cover>
+<link type="menu_grid" sort="1">menu_movies_streaming.xml</link>
+</item>
+
+<item>
+<title>Citizen Kane</title>
+<description>Powerful newspaper owner Charles Foster Kane was many things to many people, both in life and, as seen in retrospective here, in death.</description>
+<year>1941</year>
+<duration>119</duration>
+<review>9</review>
+<director>Orson Welles</director>
+<writer>Herman J. Mankiewicz, Orson Welles</writer>
+<cast>Orson Welles, Joseph Cotten, Dorothy Comingore, Agnes Moorehead</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Citizen Kane.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Citizen Kane.jpg</background>
+</item>
+
+<item>
+<title>The Dark Knight</title>
+<description>Batman, Gordon and Harvey Dent are forced to deal with the chaos unleashed by an anarchist mastermind known only as the Joker, as it drives each of them to their limits.</description>
+<rating>PG-13</rating>
+<year>2008</year>
+<duration>152</duration>
+<review>9</review>
+<director>Christopher Nolan</director>
+<cast>Christian Bale, Heath Ledger, Aaron Eckhart</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/The Dark Knight.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/The Dark Knight.jpg</background>
+</item>
+
+<item>
+<title>The Maltese Falcon</title>
+<description>Sam Spade, a private detective, gets involved in a murderous hunt for a valuable statuette.</description>
+<year>1941</year>
+<duration>101</duration>
+<review>9</review>
+<director>John Huston</director>
+<writer>Dashiell Hammett, John Huston</writer>
+<cast>Humphrey Bogart, Mary Astor, Peter Lorre</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Maltese Falcon.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Maltese Falcon.jpg</background>
+</item>
+
+<item>
+<title>North by Northwest</title>
+<description>An advertising executive is mistaken for a spy and is pursued across the country while he looks for a way to survive.</description>
+<year>1959</year>
+<duration>136</duration>
+<review>9</review>
+<director>Alfred Hitchcock</director>
+<writer>Ernest Lehman</writer>
+<cast>Cary Grant, Eva Marie Saint, James Mason</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/North by Northwest.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/North by Northwest.jpg</background>
+</item>
+
+<item>
+<title>Up</title>
+<description>By tying thousands of balloon to his home, 78-year-old Carl Fredricksen sets out to fulfill his lifelong dream to see the wilds of South America.</description>
+<rating>PG</rating>
+<year>2009</year>
+<duration>96</duration>
+<review>8</review>
+<director>Pete Docter, Bob Peterson</director>
+<cast> Edward Asner, Jordan Nagai, John Ratzenberger</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Up.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Up.jpg</background>
+</item>
+
+<item>
+<title>Star Wars IV</title>
+<subtitle>A New Hope</subtitle>
+<description>Luke Skywalker leaves his home planet, teams up with other rebels, and tries to save Princess Leia from the evil clutches of Darth Vader.</description>
+<rating>PG</rating>
+<year>1977</year>
+<duration>121</duration>
+<review>9</review>
+<director>George Lucas</director>
+<writer>George Lucas</writer>
+<cast>Mark Hamill, Harrison Ford, Carrie Fisher</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Star Wars 4.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Star Wars - Episode IV.jpg</background>
+</item>
+
+<item>
+<title>WALL-E</title>
+<description>In the distant future, a small waste collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.</description>
+<rating>G</rating>
+<year>2008</year>
+<duration>98</duration>
+<review>9</review>
+<writer>Andrew Stanton</writer>
+<cast>Ben Burtt, Jeff Garlin, Fred Willard, Elissa Knight</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Wall-E.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Wall-E.jpg</background>
+</item>
+
+<item>
+<title>The Shawshank Redemption</title>
+<description>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency. </description>
+<rating>R</rating>
+<year>1994</year>
+<duration>142</duration>
+<review>9</review>
+<director>Frank Darabont</director>
+<writer>Stephen King</writer>
+<cast>Tim Robbins, Morgan Freeman</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Shawshank.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Shawshank.jpg</background>
+</item>
+
+<item>
+<title>The Blind Side</title>
+<description>The story of Michael Oher, a homeless and traumatized boy who became an All American football player and first round NFL draft pick with the help of a caring woman and her family.</description>
+<rating>PG-13</rating>
+<year>2009</year>
+<duration>129</duration>
+<review>8</review>
+<director>John Lee Hancock</director>
+<writer>John Lee Hancock</writer>
+<cast>Sandra Bullock, Quinton Aaron, Tim McGraw</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Blind Side.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Blind Side.jpg</background>
+</item>
+
+<item>
+<title>Ghostbusters</title>
+<description>Three unemployed parapsychology professors set up shop as a unique ghost removal service.</description>
+<rating>PG</rating>
+<year>1984</year>
+<duration>105</duration>
+<review>8</review>
+<director>Ivan Reitman</director>
+<cast>Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis, Rick Moranis</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Ghostbusters.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Ghostbusters.jpg</background>
+</item>
+
+<item>
+<title>The Royal Tenenbaums</title>
+<description>An estranged family of former child prodigies reunites when one of their member announces he has a terminal illness.</description>
+<rating>R</rating>
+<year>2001</year>
+<duration>110</duration>
+<review>8</review>
+<director>Wes Anderson</director>
+<cast>Gene Hackman, Anjelica Huston, Ben Stiller, Gwyneth Paltrow, Luke Wilson, Owen Wilson, Bill Murray</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Royal Tenenbaums.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Royal Tenenbaums.jpg</background>
+</item>
+
+<item>
+<title>The Big Lebowski</title>
+<description>"Dude" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.</description>
+<rating>R</rating>
+<year>1998</year>
+<duration>117</duration>
+<review>8</review>
+<director>Joel Coen</director>
+<cast>Jeff Bridges, John Goodman, Julianne Moore</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Big Lebowski.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Big Lebowski.jpg</background>
+</item>
+
+<item>
+<title>The Princess Bride</title>
+<description>Heroes. Giants. Villains. Wizards. True Love.</description>
+<rating>PG</rating>
+<year>1987</year>
+<duration>98</duration>
+<review>8</review>
+<director>Rob Reiner</director>
+<cast>Cary Elwes, Mandy Patinkin, Andre the Giant, Chris Sarandon</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Princess Bride.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Princess Bride.jpg</background>
+</item>
+
+<item>
+<title>Travelling Salesman</title>
+<description>An intellectual thriller about four mathematicians hired by the U.S. government to solve the most elusive problem in computer science history -- P vs. NP.</description>
+<rating>R</rating>
+<year>2012</year>
+<duration>80</duration>
+<review>8</review>
+<director>Timothy Lanzone</director>
+<cast>Danny Barclay, Matt Lagan, Tyler Seiple, Marc Raymond</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/travsale.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/travsale.jpg</background>
+</item>
+
+<item>
+<title>Eternal Sunshine of the Spotless Mind</title>
+<description>A couple undergo a procedure to erase each other from their memories when their relationship turns sour, but it is only through the process of loss that they discover what they had to begin with.</description>
+<rating>R</rating>
+<year>2004</year>
+<duration>93</duration>
+<review>7</review>
+<director>Michel Gondry</director>
+<writer>Charlie Kaufman, Michel Gondry</writer>
+<cast>Jim Carrey, Kate Winslet</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/eternalsunshine.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/eternalsunshine.jpg</background>
+</item>
+
+<item>
+<title>Invincible</title>
+<description>Based on the story of Vince Papale, a 30-year-old bartender from South Philadelphia who overcame long odds to play for the NFL's Philadelphia Eagles in 1976.</description>
+<rating>PG</rating>
+<year>2006</year>
+<duration>105</duration>
+<review>7</review>
+<director>Ericson Core</director>
+<writer>Brad Gann</writer>
+<cast>Mark Wahlberg, Greg Kinnear, Elizabeth Banks</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Invincible.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Invincible.jpg</background>
+</item>
+
+<item>
+<title>Magnolia</title>
+<description>Things fall down. People look up. And when it rains, it pours.</description>
+<rating>R</rating>
+<year>1999</year>
+<duration>188</duration>
+<review>8</review>
+<director>Paul Thomas Anderson</director>
+<writer>Paul Thomas Anderson</writer>
+<cast>Tom Cruise, Julianne Moore, William H. Macy, Philip Seymour Hoffman</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Magnolia.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Magnolia.jpg</background>
+</item>
+
+<item>
+<title>Gladiator</title>
+<description>When a Roman general is betrayed and his family murdered by a corrupt prince, he comes to Rome as a gladiator to seek revenge.</description>
+<rating>R</rating>
+<year>2000</year>
+<duration>155</duration>
+<review>8</review>
+<director>Ridley Scott</director>
+<writer>David Franzoni</writer>
+<cast>Russel Crowe, Joaquin Phoenix</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Gladiator.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Gladiator.jpg</background>
+</item>
+
+<item>
+<title>Heat</title>
+<description>An epic tale of crime and obsession and two men on opposite sides of the law.</description>
+<rating>R</rating>
+<year>1995</year>
+<duration>131</duration>
+<review>8</review>
+<director>Michael Mann</director>
+<writer>Michael Mann</writer>
+<cast>Al Pacino, Robert De Niro, Val Kilmer, Jon Voight</cast>
+<link type="menu_movie">movie.mp4</link>
+<cover>/demo/demo/covers/Heat.jpg</cover>
+<background>/demo/demo/bg/%SIZE%/Heat.jpg</background>
+</item>
+
+</channel>
+</rss>

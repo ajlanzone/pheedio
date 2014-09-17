@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Internet Radio</title>
+<ticker>1</ticker>
+<columns>5</columns>
+
+<item>
+<title>Last.fm - Phish</title>
+<cover>images/radio/phish_lastfm.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/artist/Phish/similarartists</link>
+</item>
+
+<item>
+<title>Last.fm</title>
+<cover>images/radio/lastfmlogo.png</cover>
+<link type="search" popup="1" width="930" height="800">http://www.last.fm/listen/tune?type=artisttag&amp;name={searchTerms}</link>
+</item>
+
+<item>
+<title>Last.fm - Oldies</title>
+<cover>images/radio/oldies.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/globaltags/oldies</link>
+</item>
+
+<item>
+<title>Last.fm - Jazz</title>
+<cover>images/radio/jazz.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/globaltags/jazz</link>
+</item>
+<!--
+<item>
+<title>Chamber Music</title>
+<cover>images/radio/chambermusic.jpg</cover>
+<link type="frame" width="678" height="372">http://www.icebergradio.com/app/radioframe?&amp;channel=classical&amp;sub=SubBaroqueC&amp;brand=iceberg&amp;br=iceberg&amp;skin=iceberg&amp;mtype=fl</link>
+</item>
+-->
+<item>
+<title>Last.fm - Jack Johnson</title>
+<cover>images/radio/jackjohnson.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/artist/Jack+Johnson/similarartists</link>
+</item>
+
+<item>
+<title>Last.fm - Beatles</title>
+<cover>images/radio/beatles.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/artist/The+Beatles/similarartists</link>
+</item>
+
+<item>
+<title>Last.fm - Ambient</title>
+<cover>images/radio/ambient.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/globaltags/ambient</link>
+</item>
+
+<item>
+<title>Last.fm - Classical</title>
+<cover>images/radio/classical.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/globaltags/classical</link>
+</item>
+
+<item>
+<title>Pandora</title>
+<cover>images/radio/pandora.png</cover>
+<link type="frame" width="720" height="800">http://www.pandora.com/</link>
+</item>
+
+<item>
+<title>Last.fm - Christmas</title>
+<cover>images/radio/christmas_lastfm.jpg</cover>
+<link type="frame" width="930" height="620">http://www.last.fm/listen/globaltags/christmas</link>
+</item>
+
+<item>
+<title>94WIP Sports Radio</title>
+<cover>images/radio/wip.jpg</cover>
+<link type="frame" width="798" height="95">http://player.radio.com/player/RadioPlayer.php?version=1.2.10477&amp;station=60</link>
+</item>
+
+
+</channel>
+</rss>

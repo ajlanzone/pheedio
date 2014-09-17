@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Television</title>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<prefix>dock</prefix>
+<ticker>1</ticker>
+
+<item>
+<title>YouTube</title>
+<cover>images/icons/youtube.png</cover>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<link type="youtube_search"></link>
+</item>
+
+<item>
+<title>Internet Channels</title>
+<cover>images/icons/internet.png</cover>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<link type="menu_grid" sort="1">menu_internettv.xml</link>
+</item>
+
+<item>
+<title>TV Shows</title>
+<cover>images/icons/tv.png</cover>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<link type="menu_grid" rows="4" columns="2" sort="1">menu_tvshows.xml</link>
+</item>
+
+<item>
+<title>TV Guide</title>
+<cover>images/icons/tvguide.png</cover>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<link type="tvguide" minChannel="2" maxChannel="70">67199</link>
+</item>
+
+<item>
+<title>SlingBox</title>
+<cover>images/icons/slingbox.png</cover>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<link type="disabled"></link>
+</item>
+
+<item>
+<title>Hulu Desktop</title>
+<cover>images/icons/hulu.png</cover>
+<background>images/bg/%SIZE%/background_main_shows.jpg</background>
+<link type="disabled"></link>
+</item>
+
+</channel>
+</rss>
