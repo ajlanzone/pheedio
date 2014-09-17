@@ -11,7 +11,7 @@ body {
    src: local("Zekton Bold"), url("zektonbo.ttf") format("truetype");
 }
 #back_button {
-	/*background:url(/demo/images/other/toolbar/go-back.png);*/
+	/*background:url(../images/other/toolbar/go-back.png);*/
 	background:#000;
 	-moz-border-radius-bottomright:20px;
 	-khtml-border-radius-bottomright:20px;	
@@ -28,7 +28,7 @@ body {
 	z-index:5000;
 }
 #exit_button {
-	background:url(/demo/images/other/toolbar/close.png);
+	background:url(../images/other/toolbar/close.png);
 	cursor:pointer;
 	height:60px;
 	right:0;
@@ -46,7 +46,7 @@ body {
 #static_div {
 	overflow:hidden;
 	margin:0 auto;
-	background-image:url(/demo/images/bg/668/background.jpg);
+	background-image:url(../images/bg/668/background.jpg);
 
 	/* 1080p *
 	width:1920px;
@@ -237,11 +237,11 @@ body {
 	border-radius:10px;
 }
 .sidebar_off {
-	background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	background: #333 url(../images/sidebar_bg.png) 50% 50% repeat-x;
 	border-color:#333;
 }
 .sidebar_on {
-	background:#666 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	background:#666 url(../images/sidebar_bg.png) 50% 50% repeat-x;
 	/*border-color:#333;*/
 	border-color:#555;
 }
@@ -256,7 +256,7 @@ body {
 	margin-top:-2px;
 
 	/*background:#666;*/
-	background: #666 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	background: #666 url(../images/sidebar_bg.png) 50% 50% repeat-x;
 	display:inline;
 	/*opacity:0.7;*/
 	position:absolute; 
@@ -277,7 +277,7 @@ body {
 }
 
 .sidebar_on, .sidebar_on .subtitle {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 }
 
@@ -421,20 +421,20 @@ body {
 	border-radius:10px;
 	
 	/*border-width: 0 5 0 5;
-	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
-	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
-	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
-	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	-webkit-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;*/
 	
 }
 .default_menu_div_off {
-	background: transparent url(/demo/images/stripe50.png) repeat;
+	background: transparent url(../images/stripe50.png) repeat;
 	/*background: #0e0e0e;*/
 	border-color: #333;
 	z-index:0;
 }
 .default_menu_div_on {
-	background: #666 url(/demo/images/sb_overlay.png) repeat-x;
+	background: #666 url(../images/sb_overlay.png) repeat-x;
 	border-color: #333;
 	z-index:10;
 }
@@ -523,20 +523,20 @@ body {
 	border-radius:10px;
 	
 	/*border-width: 0 5 0 5;
-	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
-	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
-	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
-	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	-webkit-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;*/
 	
 }
 .default_list_div_off {
-	background: transparent url(/demo/images/stripe50.png) repeat;
+	background: transparent url(../images/stripe50.png) repeat;
 	/*background: #000;*/
 	border-color: #333;
 	z-index:0;
 }
 .default_list_div_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	/*border-color: #333;*/
 	border-color: #999;
 	z-index:10;
@@ -596,14 +596,14 @@ body {
 }
 .sb_a_on {
 	/*background:#888;*/
-	background: #666 url(/demo/images/sb_overlay.png) repeat-x;
+	background: #666 url(../images/sb_overlay.png) repeat-x;
 }
 .sb_a_off {
-	background: transparent url(/demo/images/black75.png) repeat;
+	background: transparent url(../images/black75.png) repeat;
 }
 
 .sb_ingame, .sb_pregame, .sb_postgame, .sb_redzone {
-	/*background: top left url(/demo/images/sb_overlay.png) repeat-x;*/
+	/*background: top left url(../images/sb_overlay.png) repeat-x;*/
 	
 	/* 720p */
 	padding-top: 6px;
@@ -612,7 +612,7 @@ body {
 	border-radius:7px;
 }
 .sb_redzone {
-	background-image: url(/demo/images/sb_overlay_red.png);
+	background-image: url(../images/sb_overlay_red.png);
 }
 
 .sb_team, .sb_score, .sb_gray, .sb_white {
@@ -694,7 +694,7 @@ body {
 	overflow:hidden;
 }
 #ticker-title {
-	background:#A80B00 url(/demo/images/ticker_bg.gif);
+	background:#A80B00 url(../images/ticker_bg.gif);
 	border-right:3px solid #fc0;
 	color:#fc7;
 	float:left;
@@ -761,21 +761,21 @@ body {
 	border-radius:10px;
 	
 	/*border-width: 0 5 0 5;
-	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
-	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
-	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
-	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	-webkit-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;*/
 	
 }
 .default_show_div_off {
 	background: #000;
 	border-color: #111;
-	/*background: url(/demo/images/black75.png);
+	/*background: url(../images/black75.png);
 	border-color:transparent;*/
 	z-index:0;
 }
 .default_show_div_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 	text-shadow: #000 1px 1px 3px;
 	z-index:10;
@@ -903,7 +903,7 @@ body {
 }
 
 #vlc_osd {
-	background: url(/demo/images/vlc_bg_dark.gif) repeat-x #222;
+	background: url(../images/vlc_bg_dark.gif) repeat-x #222;
 	border-top: 4px solid #000;
 	color:#aaa;
 	height:32px;
@@ -914,7 +914,7 @@ body {
 }
 
 #vlc_pause, #vlc_play {
-	background-image:url(/demo/images/vlc_play.gif);
+	background-image:url(../images/vlc_play.gif);
 	cursor:pointer;
 	float:left;
 	height:100%;
@@ -943,14 +943,14 @@ body {
 	position: relative;
 }
 #vlc_handle {
-	background:url(/demo/images/vlc_bg_light.gif) #888;
+	background:url(../images/vlc_bg_light.gif) #888;
 	cursor:col-resize;
 	height:32px;
 	width:5px;
 	position: absolute;
 }
 #vlc_handle:hover {
-	background:url(/demo/images/vlc_bg_lighter.gif) #aaa;
+	background:url(../images/vlc_bg_lighter.gif) #aaa;
 }
 
 
@@ -958,7 +958,7 @@ body {
 	background:transparent;
 }
 #vlc_prog {
-	background:url(/demo/images/vlc_bg_lighter.gif) #aaa;
+	background:url(../images/vlc_bg_lighter.gif) #aaa;
 	cursor:col-resize;
 	height:32px;
 	width:5px;
@@ -966,7 +966,7 @@ body {
 }
 
 #vlc_channel {
-	background-image:url(/demo/images/vlc_timer.gif);
+	background-image:url(../images/vlc_timer.gif);
 	float:left;
 	height:100%;
 	font-size:150%;
@@ -975,20 +975,20 @@ body {
 }
 
 #vlc_timer {
-	background:url(/demo/images/vlc_timer.gif) top left;
+	background:url(../images/vlc_timer.gif) top left;
 	float:right;
 	height:100%;
 	line-height:32px;
 	width:128px;
 }
 #vlc_trackfill {
-	background: #444 url(/demo/images/vlc_bg_med.gif) repeat-x;
+	background: #444 url(../images/vlc_bg_med.gif) repeat-x;
 	float:left;
 	height:100%;
 }
 
 #vlc_status {
-	background:url(/demo/images/vlc_timer.gif) top left; 
+	background:url(../images/vlc_timer.gif) top left; 
 	float:right; 
 	height:100%; 
 	line-height:32px; 
@@ -1005,7 +1005,7 @@ body {
 	border-radius:16px;
 
 	position:absolute;
-	background: url(/demo/images/black75.png);
+	background: url(../images/black75.png);
 	
 	/* 720p *
 	bottom:32px;
@@ -1087,12 +1087,12 @@ body {
 	/* */
 }
 .default_movie_btn_off {
-	background: url(/demo/images/black75.png);
+	background: url(../images/black75.png);
 	border-color:transparent;
 }
 
 .default_movie_btn_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 }
 
@@ -1114,7 +1114,7 @@ body {
 }
 
 #vlc_audio_wrap {
-	background:url(/demo/images/vlc_old/vlc_bg_dark.gif) 50%;
+	background:url(../images/vlc_old/vlc_bg_dark.gif) 50%;
 	float:left;
 	border:1px solid #aaa;
 	
@@ -1140,8 +1140,8 @@ body {
 	width:4px;
 }
 #vlc_audio_trackfill {
-/*	background: #444 url(/demo/images/vlc_old/vlc_bg_light.gif) 50% repeat-x; /**/
-	background: #444 url(/demo/images/progress.gif) 0 -1px repeat-x; /**/
+/*	background: #444 url(../images/vlc_old/vlc_bg_light.gif) 50% repeat-x; /**/
+	background: #444 url(../images/progress.gif) 0 -1px repeat-x; /**/
 	float:left;
 	height:100%;
 }
@@ -1182,7 +1182,7 @@ body {
 	z-index:0;
 }
 .music_root_div_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 	z-index:10;
 }
@@ -1217,13 +1217,13 @@ body {
 	border-radius:10px;
 }
 .music_root_sb_off {
-	/*background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	/*background: #333 url(../images/sidebar_bg.png) 50% 50% repeat-x;
 	border-color:#333;*/
 	border-color:#333;
 	opacity:0.5;
 }
 .music_root_sb_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 }
 .music_root_sb_off .subtitle {
@@ -1238,7 +1238,7 @@ body {
 	border-bottom:2px solid #999;
 	margin-top:-2px;
 
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	display:inline;
 	font-size:80%;
 	position:absolute; 
@@ -1311,7 +1311,7 @@ body {
 .music_artist_on {
 	/*background:#333;
 	border-color:#aaa;*/
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 }
 
@@ -1369,7 +1369,7 @@ body {
 	z-index:0;
 }
 .music_album_div_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 	z-index:10;
 }
@@ -1392,13 +1392,13 @@ body {
 	border-radius:10px;
 }
 .music_album_sb_off {
-	/*background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	/*background: #333 url(../images/sidebar_bg.png) 50% 50% repeat-x;
 	border-color:#333;*/
 	border-color:transparent;
 	opacity:0.5;
 }
 .music_album_sb_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 }
 .music_album_sb_off .subtitle {
@@ -1413,7 +1413,7 @@ body {
 	border-bottom:2px solid #999;
 	margin-top:-2px;
 
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	display:inline;
 	font-size:80%;
 	position:absolute; 
@@ -1455,7 +1455,7 @@ body {
 	position:relative;
 }
 #ssaver_music_div {
-	/*background: url(/demo/images/black25.png);*/
+	/*background: url(../images/black25.png);*/
 	text-shadow: #000 1px 1px 3px;
 	position:absolute;
 	z-index:7001;
@@ -1512,7 +1512,7 @@ body {
 	border-left:5px solid #666;
 	border-right:5px solid #666;
 	border-bottom:5px solid #666;
-	/*background: url(/demo/images/black75.png);*/
+	/*background: url(../images/black75.png);*/
 	background: #181818;
 	padding:0;
 	
@@ -1622,13 +1622,13 @@ body {
 	border-bottom-right-radius:10px;
 }
 .audioplayer_playlist_off {
-	/*	background: transparent url(/demo/images/stripe50.png) repeat;
+	/*	background: transparent url(../images/stripe50.png) repeat;
 	border-color: #333;*/
 	border-color:transparent;
 	z-index:9010;
 }
 .audioplayer_playlist_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 	z-index:9020;
 }
@@ -1669,13 +1669,13 @@ body {
 	border-radius:10px;
 }
 .audioplayer_playlist_btn_off {
-	/*background: #333 url(/demo/images/sidebar_bg.png) 50% 50% repeat-x;
+	/*background: #333 url(../images/sidebar_bg.png) 50% 50% repeat-x;
 	border-color:#333;*/
 	border-color:#333;
 	opacity:0.5;
 }
 .audioplayer_playlist_btn_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 }
 .audioplayer_playlist_btn_off .subtitle {
@@ -1690,7 +1690,7 @@ body {
 	border-bottom:2px solid #999;
 	margin-top:-2px;
 
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	display:inline;
 	font-size:80%;
 	position:absolute; 
@@ -1735,15 +1735,15 @@ body {
 	border-bottom-right-radius:10px;
 	
 	/*border-width: 0 5 0 5;
-	-webkit-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;
-	-moz-border-image: url(/demo/images/toolButton.png) 0 5 0 5 stretch stretch;*/
-	/*-webkit-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;
-	-moz-border-image: url(/demo/images/whiteButton.png) 0 12 0 12 stretch stretch;*/
+	-webkit-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;
+	-moz-border-image: url(../images/toolButton.png) 0 5 0 5 stretch stretch;*/
+	/*-webkit-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;
+	-moz-border-image: url(../images/whiteButton.png) 0 12 0 12 stretch stretch;*/
 	
 }
 
 .youtube_list_div_off {
-	/*background: transparent url(/demo/images/stripe50.png) repeat;*/
+	/*background: transparent url(../images/stripe50.png) repeat;*/
 	/*background: #000;*/
 	background:none;
 	/*border-color: #333;*/
@@ -1751,7 +1751,7 @@ body {
 	z-index:0;
 }
 .youtube_list_div_on {
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	/*border-color: #333;*/
 	border-color: #999;
 	z-index:10;
@@ -1831,14 +1831,14 @@ body {
 	border-radius:10px;
 }
 .default_search_div_off {
-	background: transparent url(/demo/images/stripe50.png) repeat;
+	background: transparent url(../images/stripe50.png) repeat;
 	/*background: #0e0e0e;*/
 	border-color: #333;
 	z-index:0;
 }
 .default_search_div_on {
 	/*background: #666  repeat-x;*/
-	background: #666 url(/demo/images/toplight32.gif) repeat-x;
+	background: #666 url(../images/toplight32.gif) repeat-x;
 	border-color: #999;
 	text-shadow: #000 1px 1px 3px;
 	z-index:10;
@@ -1921,7 +1921,7 @@ body {
 	border-radius:10px;
 }
 .youtube_search_div_off {
-	background: transparent url(/demo/images/stripe50.png) repeat;
+	background: transparent url(../images/stripe50.png) repeat;
 	/*background: #0e0e0e;*/
 	border-color: #333;
 	z-index:0;
@@ -1995,23 +1995,23 @@ body {
 	border-bottom-right-radius:10px;
 }
 .guide_chn_off {
-	background: #aaa url(/demo/images/stripe50.png) repeat;
+	background: #aaa url(../images/stripe50.png) repeat;
 	border-color: #888;
 	z-index:0;
 }
 .guide_chn_on {
-	background: #666 url(/demo/images/sb_overlay.png) repeat-x;
+	background: #666 url(../images/sb_overlay.png) repeat-x;
 
 	border-color: #ffe71c;
 	z-index:10;
 }
 .guide_div_off {
-	background: transparent url(/demo/images/stripe50.png) repeat;
+	background: transparent url(../images/stripe50.png) repeat;
 	border-color: #444;
 	z-index:1;
 }
 .guide_div_on {
-	background: rgba(128,128,128,0.5) url(/demo/images/sb_overlay.png) repeat-x;
+	background: rgba(128,128,128,0.5) url(../images/sb_overlay.png) repeat-x;
 	border-color: #ffe71c;
 	z-index:10;
 }
