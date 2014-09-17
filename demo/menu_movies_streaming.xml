@@ -18,29 +18,8 @@
 
 <item>
 <title>Crackle</title>
-<subtitle>Most Popular</subtitle>
-<link type="menu_list" sort="1">http://www.crackle.com/rss/media.ashx?b64=bz0xMiZmbHBsPTQwNDk3MCwyMCw4NDAmZng9</link>
+<link type="href">http://www.crackle.com/shows/index.aspx?c=82&amp;name=Movies#o=2&fa=82&fs=&fab=&fg=&fry=</link>
 <cover>/pheedio/demo/demo/covers/Crackle.jpg</cover>
-</item>
-
-<item>
-<title>Crackle</title>
-<subtitle>All</subtitle>
-<link type="href">http://www.crackle.com/shows/index.aspx?c=82&amp;name=Movies#o=2&amp;fa=82&amp;fs=&amp;fab=&amp;fg=Action+Action_Comedy+Adventure+Children+Comedy+Crime+Drama+Family+Fantasy+Film_Noir+Gaming+Mystery+Sci-Fi+Spoof+Sports+Suspense+Thriller+War+Western&amp;fry=1960+1970+1980+1990+2000+2010</link>
-<cover>/pheedio/demo/demo/covers/Crackle.jpg</cover>
-</item>
-
-<item>
-<title>Clicker</title>
-<link type="href">http://www.clicker.com/movie/</link>
-<cover>/pheedio/demo/demo/covers/Clicker.jpg</cover>
-</item>
-
-<item>
-<title>hulu</title>
-<subtitle>Most Popular</subtitle>
-<cover>/pheedio/demo/demo/covers/hulu.jpg</cover>
-<link type="menu_hulu" sort="1">http://www.hulu.com/feed/popular/feature_film/this_week</link>
 </item>
 
 <item>
