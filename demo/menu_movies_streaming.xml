@@ -10,7 +10,7 @@
 <columns>6</columns>
 
 <item>
-<title>Amazon Video On Demand</title>
+<title>Amazon Prime</title>
 <cover>/pheedio/demo/demo/covers/amazon_vod.png</cover>
 <oldlink type="href">http://www.amazon.com/videoondemand</oldlink>
 <link type="href">http://www.amazon.com/instantvideo/primemovies</link>
@@ -24,7 +24,6 @@
 
 <item>
 <title>hulu</title>
-<subtitle>All</subtitle>
 <cover>/pheedio/demo/demo/covers/hulu.jpg</cover>
 <link type="href">http://www.hulu.com/browse/movies</link>
 </item>
