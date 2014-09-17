@@ -45,12 +45,6 @@
 </item>
 
 <item>
-<title>Joost</title>
-<cover>images/sites/joost.gif</cover>
-<link type="href">http://www.joost.com/</link>
-</item>
-
-<item>
 <title>Metacritic</title>
 <cover>images/sites/metacritic.gif</cover>
 <link type="href">http://www.metacritic.com/</link>
@@ -59,13 +53,13 @@
 <item>
 <title>MLB.com</title>
 <cover>images/sites/mlb.gif</cover>
-<link type="href">http://mlb.mlb.com/enterworkflow.do?flowId=registration.dynaindex&amp;c_id=mlb&amp;forwardUrl=/mediacenter/index.jsp</link>
+<link type="href">http://m.mlb.com/video/</link>
 </item>
 
 <item>
 <title>NBA.com</title>
 <cover>images/sites/nba.gif</cover>
-<link type="href">http://www.nba.com/video/index.html</link>
+<link type="href">http://www.nba.com/video/</link>
 </item>
 
 </channel>
